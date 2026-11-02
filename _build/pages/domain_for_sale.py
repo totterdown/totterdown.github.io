@@ -31,7 +31,7 @@ def build(data):
       <h2 id="included-title" class="guides-title">What can be included</h2>
       <ul>
         <li><strong>The domain</strong> Totterdown.com</li>
-        <li><strong>Six sourced guides</strong> to Totterdown, every figure linked to its source</li>
+        <li><strong>{len(lib.GUIDES)} sourced guides</strong> to Totterdown, every figure linked to its source</li>
         <li><strong>The site itself:</strong> pages, illustrations and the build system that checks every page</li>
       </ul>
     </section>

@@ -2,10 +2,22 @@
 import lib
 
 SLUG = ''
-TITLE = 'Totterdown, Bristol: Guides to History, Homes & Events'
-DESC = ("Sourced guides to Totterdown, Bristol: Vale Street, local history, the arts trail, "
-        "the residents' parking scheme, house prices and things to do.")
-OG_DESC = 'Sourced guides to Totterdown in Bristol: Vale Street, history, the arts trail, parking, living here and things to do.'
+TITLE = 'Totterdown, Bristol: Local Guide to Things to Do & Living'
+DESC = ("The local guide to Totterdown, Bristol: things to do, pubs and cafés, Vale Street, parks, "
+        "events, schools, transport, house prices and history.")
+OG_DESC = 'Sourced guides to Totterdown in Bristol: what to see, where to eat, what\'s on, and what you need to know to live here.'
+
+
+def sections():
+    out = []
+    for i, (title, guides) in enumerate(lib.SECTIONS, 1):
+        out.append(f'''    <section class="guides-section" aria-labelledby="sec-{i}">
+      <h2 id="sec-{i}" class="guides-title">{title}</h2>
+      <nav class="guides" aria-label="{title}">
+{lib.guide_cards(guides=guides)}
+      </nav>
+    </section>''')
+    return '\n\n'.join(out)
 
 
 def build(data):
@@ -25,16 +37,14 @@ def build(data):
     <span class="label"><span class="dot" aria-hidden="true"></span> Guides to a Bristol neighbourhood</span>
     <h1>Totterdown, Bristol</h1>
 
-    <p class="intro">Plain, sourced guides to the hillside neighbourhood above Temple Meads: its steep streets and coloured houses, its history, what's on, and what's changing.</p>
+    <p class="intro">Plain, sourced guides to the hillside neighbourhood above Temple Meads: what to see, where to eat, what's on, and what you need to know to live here.</p>
 
-    <a class="news" href="/totterdown-parking-scheme/"><strong>Residents' parking:</strong> the council's survey on a Totterdown scheme closes on 5 November 2026. See what's proposed</a>
+    <div class="news-list">
+      <a class="news" href="/totterdown-parking-scheme/"><strong>Residents' parking:</strong> the council's survey on a Totterdown scheme closes on 5 November 2026. See what's proposed</a>
+      <a class="news" href="/totterdown-arts-trail/"><strong>Arts trail:</strong> 14 and 15 November 2026, free. Times and tips</a>
+    </div>
 
-    <section class="guides-section" aria-labelledby="guides-title">
-      <h2 id="guides-title" class="guides-title">Guides</h2>
-      <nav class="guides" aria-label="Guides">
-{lib.guide_cards()}
-      </nav>
-    </section>
+{sections()}
 
     <section class="hub-about" aria-labelledby="what-title">
       <h2 id="what-title">What is Totterdown?</h2>

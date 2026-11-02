@@ -18,7 +18,7 @@ OUT = os.path.join(os.path.dirname(ROOT), 'site')
 
 SITE = 'https://totterdown.com'
 NAME = 'Totterdown.com'
-ASSET_VERSION = 2  # bump when site/css/site.css or site/js/site.js changes
+ASSET_VERSION = 3  # bump when site/css/site.css or site/js/site.js changes
 
 # The "Make an offer" Google Form (from the domain's own Google account).
 # Until it is set, the offer button points at the About page and check.py warns.
@@ -27,25 +27,44 @@ OFFER_URL = 'https://docs.google.com/forms/d/e/1FAIpQLSfiCXJCVAg9Aymty07FjQuhIPZ
 # When set, analytics loads only after a visitor accepts the cookie banner.
 GA_ID = ''
 
-NAV = [('/vale-street/', 'Vale Street'), ('/totterdown-history/', 'History'),
-       ('/totterdown-arts-trail/', 'Arts trail'), ('/totterdown-parking-scheme/', 'Parking'),
-       ('/living-in-totterdown/', 'Living here'), ('/things-to-do-in-totterdown/', 'Things to do')]
+NAV = [('/things-to-do-in-totterdown/', 'Things to do'), ('/food-and-drink-in-totterdown/', 'Food & drink'),
+       ('/totterdown-walk/', 'Walk'), ('/whats-on-in-totterdown/', "What's on"),
+       ('/totterdown-history/', 'History'), ('/living-in-totterdown/', 'Living here')]
 
-# Guide cards for the homepage, sale page and 404: (href, title, summary)
-GUIDES = [
-    ('/totterdown-parking-scheme/', "Totterdown residents' parking scheme",
-     'The 2026 survey, permit prices and the South Bristol Liveable Neighbourhood'),
-    ('/vale-street/', 'Vale Street: England\'s steepest street',
-     'How steep it is, the Banksy that appeared on it, and the Easter egg roll'),
-    ('/totterdown-history/', 'Totterdown history',
-     'Railway terraces, Three Lamps, the first mosque in Bristol and the road that was never built'),
-    ('/totterdown-arts-trail/', 'Totterdown Arts Trail 2026',
-     'Dates, times and what to expect on 14 and 15 November'),
-    ('/living-in-totterdown/', 'Living in Totterdown',
-     'House prices, schools, getting to Temple Meads and the Clean Air Zone'),
-    ('/things-to-do-in-totterdown/', 'Things to do in Totterdown',
-     'The coloured houses, pubs, cafés, the best views and Arnos Vale'),
+# Guides grouped for the homepage: (section title, [(href, title, summary)])
+SECTIONS = [
+    ('Visiting Totterdown', [
+        ('/things-to-do-in-totterdown/', 'Things to do in Totterdown',
+         'The coloured houses, Vale Street, pubs, views and Arnos Vale'),
+        ('/food-and-drink-in-totterdown/', 'Where to eat and drink',
+         'Pubs, a brewpub, cafés, pizza and fish and chips on and around the Wells Road'),
+        ('/totterdown-walk/', 'A self-guided Totterdown walk',
+         'Ten sights from Totterdown Bridge to Perrett\'s Park, with map links'),
+        ('/vale-street/', "Vale Street: England's steepest street",
+         'How steep it is, the Banksy that appeared on it, and the Easter egg roll'),
+        ('/parks-in-totterdown/', 'Parks and green spaces',
+         "Perrett's Park, Victoria Park's water maze, the city farm and the New Cut"),
+        ('/whats-on-in-totterdown/', "What's on in Totterdown",
+         'The egg roll, garden festival, Balloon Fiesta views and the arts trail, month by month'),
+        ('/totterdown-arts-trail/', 'Totterdown Arts Trail 2026',
+         'Dates, times and what to expect on 14 and 15 November'),
+    ]),
+    ('Living in Totterdown', [
+        ('/living-in-totterdown/', 'Living in Totterdown',
+         'House prices, rents, GPs, libraries, safety and the Clean Air Zone'),
+        ('/schools-in-totterdown/', 'Schools in and near Totterdown',
+         'Primary and secondary schools, Ofsted ratings and how places are given'),
+        ('/getting-around-totterdown/', 'Getting around',
+         'Temple Meads, buses on the Wells Road and Bath Road, cycling and parking'),
+        ('/totterdown-parking-scheme/', "Residents' parking scheme",
+         'The 2026 survey, permit prices and the South Bristol Liveable Neighbourhood'),
+    ]),
+    ('History and stories', [
+        ('/totterdown-history/', 'Totterdown history',
+         'Railway terraces, Three Lamps, the first mosque in Bristol and the road that was never built'),
+    ]),
 ]
+GUIDES = [g for _, gs in SECTIONS for g in gs]
 
 
 def load(name):
@@ -190,8 +209,20 @@ def footer(extra=''):
 '''
 
 
-def guide_cards(indent='        '):
-    return '\n'.join(f'{indent}<a href="{h}"><strong>{t}</strong><span>{s}</span></a>' for h, t, s in GUIDES)
+def related(slug):
+    """Links to every other guide, so each page leads on to the rest of the site."""
+    items = '\n'.join(f'      <li><a href="{h}">{t}</a></li>' for h, t, _ in GUIDES if h != f'/{slug}/')
+    return f'''
+    <nav class="related" aria-labelledby="related-title">
+      <h2 id="related-title">More Totterdown guides</h2>
+      <ul>
+{items}
+      </ul>
+    </nav>'''
+
+
+def guide_cards(indent='        ', guides=None):
+    return '\n'.join(f'{indent}<a href="{h}"><strong>{t}</strong><span>{s}</span></a>' for h, t, s in (guides or GUIDES))
 
 
 def terrace(cls='terrace'):
@@ -245,6 +276,7 @@ def page(slug, title, desc, og_desc, crumb, h1, published, modified, body, sourc
     <h1>{h1}</h1>
 {body.rstrip()}
 {sources}
+{related(slug)}
     <aside class="forsale-strip"><a href="/domain-for-sale/">Totterdown.com is for sale</a></aside>
   </main>
 

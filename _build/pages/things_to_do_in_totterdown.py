@@ -59,7 +59,7 @@ BODY = r'''    <p class="meta">Updated 2 November 2026. Opening hours change, so
       </tbody>
     </table></div>
 
-    <p>Bruhaha, a nano brewery and bar, is another local suggestion for an evening out. [[vb_locals]]</p>
+    <p>Bruhaha, a nano brewery and bar, is another local suggestion for an evening out. [[vb_locals]] The full list is in <a href="/food-and-drink-in-totterdown/">where to eat and drink</a>.</p>
 
     <h2 id="eat">Where to eat in Totterdown</h2>
     <p>Most of Totterdown's cafés and restaurants are on and around the Wells Road. Visit Bristol's locals' guide recommends: [[vb_locals]]</p>
@@ -77,6 +77,8 @@ BODY = r'''    <p class="meta">Updated 2 November 2026. Opening hours change, so
       <li><strong>From the streets:</strong> the top of almost any Totterdown street looks out across the city, and Temple Meads looks back at the coloured houses. [[colour_secret]]</li>
     </ul>
 
+    <p>More in <a href="/parks-in-totterdown/">parks and green spaces</a>.</p>
+
     <h2 id="arnos">Is Arnos Vale Cemetery worth visiting?</h2>
     <p>Arnos Vale is a Victorian garden cemetery on the Bath Road, on the edge of Totterdown. Its first burial was in 1839. [[arnos]] [[arnos_visit]]</p>
     <ul>
@@ -91,7 +93,7 @@ BODY = r'''    <p class="meta">Updated 2 November 2026. Opening hours change, so
       <li><strong>Bristol Jamia Mosque:</strong> on Green Street, the first mosque in Bristol, in a former church. [[mosque]]</li>
       <li><strong>Totterdown Bridge:</strong> the 1888 bridge over the Avon at the foot of the hill. [[bridge]]</li>
     </ul>
-    <p>The stories behind them are in <a href="/totterdown-history/">our history of Totterdown</a>.</p>
+    <p>The stories behind them are in <a href="/totterdown-history/">our history of Totterdown</a>, and you can link them into <a href="/totterdown-walk/">a self-guided walk</a>.</p>
 
     <h2 id="events">What's on in Totterdown through the year?</h2>
     <div class="table-wrap"><table>
@@ -103,6 +105,7 @@ BODY = r'''    <p class="meta">Updated 2 November 2026. Opening hours change, so
         <tr><td>November</td><td>Totterdown Arts Trail, 14 and 15 November in 2026 [[tat_faq]]</td></tr>
       </tbody>
     </table></div>
+    <p>Month by month: <a href="/whats-on-in-totterdown/">what's on in Totterdown</a>.</p>
 '''
 
 

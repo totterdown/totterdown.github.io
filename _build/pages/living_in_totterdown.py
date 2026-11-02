@@ -4,7 +4,7 @@ from lib import page
 META = {
     'slug': 'living-in-totterdown',
     'title': 'Living in Totterdown, Bristol: Prices, Schools & Transport',
-    'desc': 'Moving to Totterdown, Bristol BS4: average house prices, schools, getting to Temple Meads, parking, the Clean Air Zone and the Temple Island plans.',
+    'desc': 'Moving to Totterdown, Bristol: house prices and rents, GPs, libraries, schools, getting to Temple Meads, safety, parking and the Clean Air Zone.',
     'og_desc': 'House prices, schools, transport, parking and the Clean Air Zone for anyone thinking of moving to Totterdown, Bristol.',
     'crumb': 'Living in Totterdown',
     'h1': 'Living in Totterdown',
@@ -19,6 +19,7 @@ BODY = r'''    <p class="meta">Updated 2 November 2026. Every figure links to it
       <h2>Quick answer</h2>
       <ul>
         <li><strong>House prices:</strong> homes in Totterdown sold for an average of £374,399 over the year to early 2026, 5% more than the year before. [[rightmove]]</li>
+        <li><strong>Renting:</strong> example listings in 2026 asked about £1,100 a month for a one-bed flat and £1,500 for a two-bed; there's no published average for Totterdown. [[rent_1bed]] [[rent_2bed]]</li>
         <li><strong>Council ward:</strong> Totterdown is in Windmill Hill ward, home to an estimated 14,104 people in mid-2024. [[ward_wiki]] [[ward_2024]]</li>
         <li><strong>Getting about:</strong> Temple Meads station is at the foot of the hill, within walking distance. [[walk_temple]]</li>
         <li><strong>Parking:</strong> a residents' parking scheme is proposed; the council's survey closes on 5 November 2026. <a href="/totterdown-parking-scheme/">Details</a></li>
@@ -30,6 +31,8 @@ BODY = r'''    <p class="meta">Updated 2 November 2026. Every figure links to it
       <ol>
         <li><a href="#prices">How much are houses in Totterdown?</a></li>
         <li><a href="#area">Where is Totterdown?</a></li>
+        <li><a href="#rent">Renting in Totterdown</a></li>
+        <li><a href="#services">GPs, libraries and halls</a></li>
         <li><a href="#schools">Schools</a></li>
         <li><a href="#transport">Getting around</a></li>
         <li><a href="#safety">Is Totterdown safe?</a></li>
@@ -52,6 +55,9 @@ BODY = r'''    <p class="meta">Updated 2 November 2026. Every figure links to it
     </table></div>
     <p>Most homes in Totterdown are terraced houses, so the average reflects a mix of terrace sizes. Check recent sales on your street before making an offer. [[rightmove]]</p>
 
+    <h2 id="rent">How much does it cost to rent in Totterdown?</h2>
+    <p>No organisation publishes an average rent for Totterdown alone. As examples, a one-bed flat was listed at £1,100 a month and a two-bed flat at £1,500 a month in 2026. [[rent_1bed]] [[rent_2bed]] Compare several current listings before you agree a rent.</p>
+
     <h2 id="area">Where is Totterdown, and which ward is it in?</h2>
     <ul>
       <li><strong>Location:</strong> south of the River Avon, above Temple Meads, where the A4 Bath Road and the A37 Wells Road split at Three Lamps. [[three_lamps]]</li>
@@ -60,11 +66,23 @@ BODY = r'''    <p class="meta">Updated 2 November 2026. Every figure links to it
       <li><strong>Population:</strong> the ward had 13,958 residents at the 2021 Census and an estimated 14,104 in mid-2024. Neither figure is for Totterdown alone. [[ward_2021]] [[ward_2024]]</li>
     </ul>
 
+    <h2 id="services">Where are the nearest GPs and libraries?</h2>
+    <div class="table-wrap"><table>
+      <caption>Local services near Totterdown</caption>
+      <thead><tr><th>Service</th><th>Where</th></tr></thead>
+      <tbody>
+        <tr><td>Wells Road Surgery (GP)</td><td>233 Wells Road, Knowle [[gp_wells]]</td></tr>
+        <tr><td>Priory Surgery (GP)</td><td>326 Wells Road, Knowle [[gp_priory]]</td></tr>
+        <tr><td>Knowle Library</td><td>Broad Walk, Knowle [[lib_knowle]]</td></tr>
+        <tr><td>Bedminster Library</td><td>Bedminster Parade [[lib_bedminster]]</td></tr>
+        <tr><td>Wick Road Library</td><td>Wick Road, Brislington [[lib_wick]]</td></tr>
+        <tr><td>The Harbour (community halls)</td><td>A former Methodist church in Totterdown with three halls for local groups [[harbour]]</td></tr>
+      </tbody>
+    </table></div>
+    <p>Which GP practice you can register with depends on your address. Use the NHS website to find practices that cover your postcode and are accepting new patients. [[nhs_gp]]</p>
+
     <h2 id="schools">What schools are in Totterdown?</h2>
-    <ul>
-      <li><strong>Hillcrest Primary School</strong> on Cemetery Road is a community primary school for ages 4 to 11. It was rated Good at its January 2022 inspection. Ofsted now publishes report cards, so check its page for anything newer. [[hillcrest]]</li>
-      <li><strong>Admissions:</strong> school places in Bristol are allocated by the city council, so check the council's admissions pages for catchment and deadlines.</li>
-    </ul>
+    <p>Hillcrest Primary School on Cemetery Road is Totterdown's own primary school, rated Good at its January 2022 inspection. [[hillcrest]] There's no secondary school in Totterdown. See <a href="/schools-in-totterdown/">schools in and near Totterdown</a> for primary and secondary options and how places are given.</p>
 
     <h2 id="transport">How do you get around from Totterdown?</h2>
     <ul>
@@ -73,6 +91,7 @@ BODY = r'''    <p class="meta">Updated 2 November 2026. Every figure links to it
       <li><strong>Roads:</strong> the A4 Bath Road and the A37 Wells Road meet at Three Lamps, at the edge of Totterdown. [[three_lamps]]</li>
       <li><strong>Hills:</strong> many streets are steep. <a href="/vale-street/">Vale Street</a> has an average gradient of about 21.8%. [[vale_cadbury]]</li>
     </ul>
+    <p>More in <a href="/getting-around-totterdown/">getting to and around Totterdown</a>.</p>
 
     <h2 id="safety">Is Totterdown a safe place to live?</h2>
     <p>No source publishes a crime rate for Totterdown as a whole. For one example, StreetCheck counted 57 crimes within half a mile of Bath Road, Totterdown, in October 2025 and rated the level "medium". [[streetcheck]] For a street you're thinking of moving to, look up its postcode on the police.uk crime map, which shows recorded crime month by month. [[police_uk]]</p>
@@ -94,6 +113,7 @@ BODY = r'''    <p class="meta">Updated 2 November 2026. Every figure links to it
     <ul>
       <li><strong>TRESA</strong> (Totterdown Residents' Environmental and Social Action) holds public meetings on planning, transport and local issues. [[tresa]]</li>
       <li><strong>Arts trail:</strong> the <a href="/totterdown-arts-trail/">Totterdown Arts Trail</a> opens homes to visitors every November.</li>
+      <li><strong>Events:</strong> see <a href="/whats-on-in-totterdown/">what's on in Totterdown</a> through the year.</li>
     </ul>
 '''
 

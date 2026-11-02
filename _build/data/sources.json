@@ -1,4 +1,13 @@
 {
+ "admissions": {
+  "label": "Allocation of new Year 7 places, Bristol City Council",
+  "links": [
+   [
+    "bristol.gov.uk",
+    "https://services.bristol.gov.uk/residents/schools-learning-and-early-years/school-admissions/secondary-admissions/allocation-of-new-year-7-places-for-september-2022"
+   ]
+  ]
+ },
  "arnos": {
   "label": "Arnos Vale heritage, Arnos Vale Cemetery Trust",
   "links": [
@@ -14,6 +23,24 @@
    [
     "visitbristol.co.uk",
     "https://visitbristol.co.uk/blog/post/the-story-of-arnos-vale-cemetery/"
+   ]
+  ]
+ },
+ "b365": {
+  "label": "Bristol neighbourhood guide: Totterdown, 365Bristol",
+  "links": [
+   [
+    "365bristol.com",
+    "https://365bristol.com/news/amp/bristol-neighbourhood-guide-totterdown/15184/"
+   ]
+  ]
+ },
+ "bank_b247": {
+  "label": "Award-winning barista to open new cafe and cocktail bar, Bristol24/7",
+  "links": [
+   [
+    "bristol247.com",
+    "https://www.bristol247.com/food-and-drink/news-food-and-drink/award-winning-barista-to-open-new-cafe-and-cocktail-bar/"
    ]
   ]
  },
@@ -53,6 +80,15 @@
    ]
   ]
  },
+ "bathrd_cycle": {
+  "label": "No money to fix 'appalling' Bristol bike lane near Temple Island, Bristol Post via inkl",
+  "links": [
+   [
+    "inkl.com",
+    "https://www.inkl.com/news/no-money-to-fix-appalling-bristol-bike-lane-along-busy-road-near-temple-island"
+   ]
+  ]
+ },
  "bridge": {
   "label": "Archaeological excavation of site at Totterdown Bridge, TRESA",
   "links": [
@@ -62,12 +98,57 @@
    ]
   ]
  },
+ "bruhaha_b247": {
+  "label": "Independent brewery opens first permanent taproom, Bristol24/7",
+  "links": [
+   [
+    "bristol247.com",
+    "https://www.bristol247.com/food-and-drink/news-food-and-drink/independent-brewery-opens-first-permanent-taproom/"
+   ]
+  ]
+ },
+ "bruhaha_camra": {
+  "label": "Bruhaha, Bristol, CAMRA WhatPub",
+  "links": [
+   [
+    "camra.org.uk",
+    "https://camra.org.uk/pubs/197297"
+   ]
+  ]
+ },
  "bus512": {
   "label": "512 Totterdown – Windmill Hill – Bedminster – Redcliffe – Bristol City Centre, bustimes.org",
   "links": [
    [
     "bustimes.org",
     "https://bustimes.org/services/512-totterdown-bedminster-bristol-centre-2"
+   ]
+  ]
+ },
+ "bus_376a": {
+  "label": "376a Bristol Bus Station – Wells Bus Station, bustimes.org",
+  "links": [
+   [
+    "bustimes.org",
+    "https://bustimes.org/services/376a-bristol-bus-station-wells-bus-station-via-tem"
+   ]
+  ]
+ },
+ "bus_bathroad": {
+  "label": "Bath Road, Totterdown road closure: services 1, 39, 43, 522, X39, First Bus, April 2026",
+  "links": [
+   [
+    "firstbus.co.uk",
+    "https://www.firstbus.co.uk/bristol-bath-and-west/news-and-service-updates/updates/bath-road-totterdown-road-closure-1-39-43"
+   ]
+  ]
+ },
+ "bus_localities": {
+  "label": "Bus stops in Totterdown, bustimes.org",
+  "links": [
+   [
+    "bustimes.org",
+    "https://bustimes.org/localities/totterdown"
    ]
   ]
  },
@@ -107,6 +188,15 @@
    ]
   ]
  },
+ "canteen": {
+  "label": "Totterdown Canteen, Tripadvisor",
+  "links": [
+   [
+    "tripadvisor.co.uk",
+    "https://www.tripadvisor.co.uk/Restaurant_Review-g186220-d7598276-Reviews-Totterdown_Canteen-Bristol_England.html"
+   ]
+  ]
+ },
  "caz_14": {
   "label": "Clean Air Zone charges could increase to £14 a day, Bristol24/7",
   "links": [
@@ -143,6 +233,15 @@
    ]
   ]
  },
+ "eduscope": {
+  "label": "Secondary schools in Bristol, Eduscope",
+  "links": [
+   [
+    "eduscope.uk",
+    "https://eduscope.uk/bristol/secondary-schools"
+   ]
+  ]
+ },
  "egg_b247": {
   "label": "Egg rolling returns to Bristol's steepest street, Bristol24/7",
   "links": [
@@ -161,6 +260,33 @@
    ]
   ]
  },
+ "farm_contact": {
+  "label": "Contact and opening times, Windmill Hill City Farm",
+  "links": [
+   [
+    "windmillhillcityfarm.org.uk",
+    "https://windmillhillcityfarm.org.uk/pages/contact"
+   ]
+  ]
+ },
+ "farm_history": {
+  "label": "Windmill Hill City Farm, Social Farms & Gardens",
+  "links": [
+   [
+    "farmgarden.org.uk",
+    "https://www.farmgarden.org.uk/org/public-profile/43098"
+   ]
+  ]
+ },
+ "farm_visit": {
+  "label": "Visit us, Windmill Hill City Farm",
+  "links": [
+   [
+    "windmillhillcityfarm.org.uk",
+    "https://www.windmillhillcityfarm.org.uk/visit-us"
+   ]
+  ]
+ },
  "ffordd": {
   "label": "What is it like living on Britain's 'steepest street'?, Yahoo News",
   "links": [
@@ -170,12 +296,48 @@
    ]
   ]
  },
+ "franc_walks": {
+  "label": "Circular walks around the New Cut, FRANC (Friends of the Avon New Cut)",
+  "links": [
+   [
+    "franc.org.uk",
+    "https://franc.org.uk/wp-content/uploads/2021/04/Circular-Walks-around-the-New-Cut.pdf"
+   ]
+  ]
+ },
+ "gp_priory": {
+  "label": "Priory Surgery, 326 Wells Road, All Health and Care",
+  "links": [
+   [
+    "allhealthandcare.co.uk",
+    "https://allhealthandcare.co.uk/providers/BS4-2QJ/priory-surgery-L81084"
+   ]
+  ]
+ },
+ "gp_wells": {
+  "label": "Wells Road Surgery, NHS website",
+  "links": [
+   [
+    "nhs.uk",
+    "https://www.nhs.uk/services/gp-surgery/wells-road-surgery/L81125"
+   ]
+  ]
+ },
  "hansard73": {
   "label": "Bristol (Circuit Road), written answer, House of Commons, 21 December 1973",
   "links": [
    [
     "parliament.uk",
     "https://api.parliament.uk/historic-hansard/written-answers/1973/dec/21/bristol-circuit-road"
+   ]
+  ]
+ },
+ "harbour": {
+  "label": "Lighthouse Vineyard Bristol: The Harbour, LandAid",
+  "links": [
+   [
+    "landaid.org",
+    "https://landaid.org/pro-bono-project/25-685-lighthouse-vineyard-bristol"
    ]
   ]
  },
@@ -194,6 +356,42 @@
    [
     "alha.org.uk",
     "https://www.alha.org.uk/organisation/knowle-totterdown-local-history-society"
+   ]
+  ]
+ },
+ "lib_bedminster": {
+  "label": "Bedminster Library, Bristol City Council",
+  "links": [
+   [
+    "bristol.gov.uk",
+    "https://services.bristol.gov.uk/residents/libraries-and-archives/find-a-library/library-finder/library?id=2"
+   ]
+  ]
+ },
+ "lib_knowle": {
+  "label": "Knowle Library, Bristol City Council",
+  "links": [
+   [
+    "bristol.gov.uk",
+    "https://bristol.gov.uk/residents/libraries-and-archives/find-a-library/library-finder/library?id=15"
+   ]
+  ]
+ },
+ "lib_wick": {
+  "label": "Wick Road Library, Bristol City Council",
+  "links": [
+   [
+    "bristol.gov.uk",
+    "https://bristol.gov.uk/residents/libraries-and-archives/find-a-library/library-finder/library?id=27"
+   ]
+  ]
+ },
+ "maze_petition": {
+  "label": "Victoria Park water maze needs water, 38 Degrees petition",
+  "links": [
+   [
+    "38degrees.org.uk",
+    "https://you.38degrees.org.uk/petitions/victoria-park-water-maze-needs-water"
    ]
   ]
  },
@@ -225,6 +423,51 @@
    [
     "tresa.org.uk",
     "https://www.tresa.org.uk/totterdown-4/"
+   ]
+  ]
+ },
+ "newcut": {
+  "label": "The New Cut heritage trail, Bristol Floating Harbour",
+  "links": [
+   [
+    "bristolfloatingharbour.org.uk",
+    "https://bristolfloatingharbour.org.uk/harbour-trails/heritage-trails/the-new-cut"
+   ]
+  ]
+ },
+ "nhs_gp": {
+  "label": "Find a GP in Bristol, NHS website",
+  "links": [
+   [
+    "nhs.uk",
+    "https://www.nhs.uk/service-search/find-a-gp/results/Bristol"
+   ]
+  ]
+ },
+ "nr_regen": {
+  "label": "Bristol Rail Regeneration, Network Rail",
+  "links": [
+   [
+    "networkrail.co.uk",
+    "https://www.networkrail.co.uk/running-the-railway/our-routes/western/bristol-rail-regeneration/"
+   ]
+  ]
+ },
+ "oab": {
+  "label": "Oasis Academy Brislington catchment area, Catchment.school",
+  "links": [
+   [
+    "catchment.school",
+    "https://catchment.school/school/oasis-academy-brislington-141652/"
+   ]
+  ]
+ },
+ "oatq": {
+  "label": "Oasis Academy Temple Quarter catchment area, Catchment.school",
+  "links": [
+   [
+    "catchment.school",
+    "https://catchment.school/school/oasis-academy-temple-quarter-149784"
    ]
   ]
  },
@@ -265,6 +508,33 @@
    [
     "police.uk",
     "https://www.police.uk/"
+   ]
+  ]
+ },
+ "relig_walk": {
+  "label": "Religious buildings of Totterdown walk, TRESA, June 2025",
+  "links": [
+   [
+    "tresa.org.uk",
+    "https://www.tresa.org.uk/wp-content/uploads/2025/06/Religious-buildings-of-Totterdown-walk.pdf"
+   ]
+  ]
+ },
+ "rent_1bed": {
+  "label": "One-bed flat to rent, Totterdown, £1,100 pcm, PrimeLocation listing, 2026",
+  "links": [
+   [
+    "primelocation.com",
+    "https://www.primelocation.com/to-rent/details/69408113/"
+   ]
+  ]
+ },
+ "rent_2bed": {
+  "label": "Two-bed flat to rent, Totterdown, £1,500 pcm, PrimeLocation listing, 2026",
+  "links": [
+   [
+    "primelocation.com",
+    "https://www.primelocation.com/to-rent/details/73667547/"
    ]
   ]
  },
@@ -376,6 +646,60 @@
    ]
   ]
  },
+ "sg_permission": {
+  "label": "Southern Gateway transport hub wins planning permission, Business Biscuit, January 2026",
+  "links": [
+   [
+    "businessbiscuit.com",
+    "https://businessbiscuit.com/business-news/commercial-property-news/bristol-temple-quarter-southern-gateway/"
+   ]
+  ]
+ },
+ "sg_weca": {
+  "label": "Temple Meads new transport hub plans submitted, West of England Combined Authority, 29 July 2025",
+  "links": [
+   [
+    "westofengland-ca.gov.uk",
+    "https://www.westofengland-ca.gov.uk/news/temple-meads-new-transport-hub-plans-submitted/"
+   ]
+  ]
+ },
+ "smokebox": {
+  "label": "Smokebox, Bristol, CAMRA WhatPub",
+  "links": [
+   [
+    "camra.org.uk",
+    "https://camra.org.uk/pubs/smokebox-bristol-114590"
+   ]
+  ]
+ },
+ "smrt": {
+  "label": "St Mary Redcliffe and Temple School, SchoolDash",
+  "links": [
+   [
+    "schooldash.com",
+    "https://www.schooldash.com/school/109327"
+   ]
+  ]
+ },
+ "southern_gateway": {
+  "label": "Plans for new Southern Gateway revealed, Bristol Temple Quarter",
+  "links": [
+   [
+    "bristoltemplequarter.com",
+    "https://www.bristoltemplequarter.com/news/plans-for-new-southern-gateway-revealed/"
+   ]
+  ]
+ },
+ "star_reopen": {
+  "label": "Pub of the week: Star and Dove, Bristol24/7",
+  "links": [
+   [
+    "bristol247.com",
+    "https://www.bristol247.com/food-and-drink/pubs-and-bars/pub-week-star-dove/"
+   ]
+  ]
+ },
  "streetcheck": {
   "label": "Crime near Bath Road, Totterdown, BS4 3EF, October 2025, StreetCheck",
   "links": [
@@ -418,6 +742,15 @@
    [
     "totterdownartstrail.org",
     "https://totterdownartstrail.org/frequently-asked-questions/"
+   ]
+  ]
+ },
+ "tat_food": {
+  "label": "Food and drink in Totterdown, Totterdown Arts Trail",
+  "links": [
+   [
+    "totterdownartstrail.org",
+    "https://totterdownartstrail.org/food-drink-totterdown/"
    ]
   ]
  },
@@ -466,6 +799,15 @@
    ]
   ]
  },
+ "thunder_sale": {
+  "label": "Historic Bristol pub and venue for sale, Bristol24/7",
+  "links": [
+   [
+    "bristol247.com",
+    "https://www.bristol247.com/food-and-drink/news-food-and-drink/historic-pub-venue-sale"
+   ]
+  ]
+ },
  "tooting": {
   "label": "Totterdown Fields, Wikipedia",
   "links": [
@@ -475,12 +817,66 @@
    ]
   ]
  },
+ "tots": {
+  "label": "First look at new Bristol play cafe, Bristol World",
+  "links": [
+   [
+    "bristolworld.com",
+    "https://www.bristolworld.com/lifestyle/family/first-look-new-bristol-play-cafe-4816583"
+   ]
+  ]
+ },
  "tresa": {
   "label": "TRESA, Totterdown Residents' Environmental and Social Action",
   "links": [
    [
     "tresa.org.uk",
     "https://www.tresa.org.uk/"
+   ]
+  ]
+ },
+ "tresa_events": {
+  "label": "News and events, TRESA",
+  "links": [
+   [
+    "tresa.org.uk",
+    "https://www.tresa.org.uk/news-events/"
+   ]
+  ]
+ },
+ "tresa_gardens": {
+  "label": "Talk of Totterdown, Spring 2018 (front garden awards), TRESA",
+  "links": [
+   [
+    "tresa.org.uk",
+    "https://www.tresa.org.uk/?p=2102"
+   ]
+  ]
+ },
+ "tresa_may26": {
+  "label": "TRESA public meeting papers, 17 May 2026",
+  "links": [
+   [
+    "tresa.org.uk",
+    "https://www.tresa.org.uk/wp-content/uploads/2026/05/TRESA-public-meeting-2026-05-17.pdf"
+   ]
+  ]
+ },
+ "tresa_space": {
+  "label": "Community space, TRESA",
+  "links": [
+   [
+    "tresa.org.uk",
+    "https://www.tresa.org.uk/community-space/"
+   ]
+  ]
+ },
+ "truffled": {
+  "label": "Truffled of Totterdown",
+  "links": [
+   [
+    "truffledoftotterdown.webflow.io",
+    "https://truffledoftotterdown.webflow.io/"
    ]
   ]
  },
@@ -574,6 +970,42 @@
    ]
   ]
  },
+ "vicpark": {
+  "label": "Victoria Park, Bristol, Wikipedia",
+  "links": [
+   [
+    "wikipedia.org",
+    "https://en.wikipedia.org/wiki/Victoria_Park,_Bristol"
+   ]
+  ]
+ },
+ "vicpark_pg": {
+  "label": "Victoria Park, Bristol, Parks and Gardens UK",
+  "links": [
+   [
+    "parksandgardens.org",
+    "https://parksandgardens.org/places/victoria-park-bristol"
+   ]
+  ]
+ },
+ "vpps_gias": {
+  "label": "Victoria Park Primary School, Get Information About Schools, Department for Education",
+  "links": [
+   [
+    "gov.uk",
+    "https://get-information-schools.service.gov.uk/Establishments/Establishment/Details/144863"
+   ]
+  ]
+ },
+ "vpps_ofsted": {
+  "label": "Victoria Park Primary School (URN 144863), Ofsted reports",
+  "links": [
+   [
+    "ofsted.gov.uk",
+    "https://reports.ofsted.gov.uk/provider/21/144863"
+   ]
+  ]
+ },
  "walk_temple": {
   "label": "Walks from Bristol train stations, Visit Bristol",
   "links": [
@@ -616,6 +1048,15 @@
    [
     "tresa.org.uk",
     "https://www.tresa.org.uk/where-is-totterdown/"
+   ]
+  ]
+ },
+ "wiki_totterdown": {
+  "label": "Totterdown, Wikipedia",
+  "links": [
+   [
+    "wikipedia.org",
+    "https://en.wikipedia.org/wiki/Totterdown"
    ]
   ]
  }

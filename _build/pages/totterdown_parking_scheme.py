@@ -70,7 +70,8 @@ BODY = r'''    <p class="meta">Updated 2 November 2026. Every figure links to it
     <p>The South Bristol Liveable Neighbourhood (SBLN) is a council scheme to cut through-traffic and make streets safer for walking and cycling. It covers Southville, Bedminster, Ashton Vale, Malago Vale, Windmill Hill and part of Totterdown. [[sbln_revised]]</p>
     <ul>
       <li><strong>Consultation:</strong> the council received more than 4,000 responses and published the results in May 2026. [[sbln_report]]</li>
-      <li><strong>Totterdown response:</strong> South Bristol Voice reported that only 27% of respondents agreed with the plans for Totterdown. [[sbln_voice]]</li>
+      <li><strong>Totterdown response:</strong> South Bristol Voice reported that only 27% of respondents agreed with the plans for Totterdown. [[sbln_voice]] Papers for TRESA's May 2026 meeting show more support for one of the options, with 64% agreeing and 25% disagreeing, while a permanent one-way on Cambridge Street was unpopular. [[tresa_may26]]</li>
+      <li><strong>East Totterdown:</strong> the same papers say the council is developing a residents' parking scheme for Totterdown, but not for East Totterdown. [[tresa_may26]]</li>
       <li><strong>What changed:</strong> the council said schemes would not go ahead in Totterdown East, Perretts Park or Malago Vale, and it removed some proposed one-way streets and through-traffic measures in Totterdown and Southville. [[sbln_news]] [[sbln_revised]]</li>
       <li><strong>Public spaces:</strong> the council says it's working with communities and businesses in Totterdown on designs for new public spaces. [[sbln_revised]]</li>
       <li><strong>Timing:</strong> any street changes are due to start from late 2026 and be finished by the end of 2027. [[sbln_about]]</li>

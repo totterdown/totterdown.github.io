@@ -7,6 +7,12 @@ footer, navigation, structured data and sources list stay in step.
 |---|---|
 | `/` | `pages/home.py` |
 | `/totterdown-parking-scheme/` | `pages/totterdown_parking_scheme.py` |
+| `/food-and-drink-in-totterdown/` | `pages/food_and_drink_in_totterdown.py` |
+| `/totterdown-walk/` | `pages/totterdown_walk.py` (map links built from `MAPS`) |
+| `/parks-in-totterdown/` | `pages/parks_in_totterdown.py` |
+| `/whats-on-in-totterdown/` | `pages/whats_on_in_totterdown.py` |
+| `/schools-in-totterdown/` | `pages/schools_in_totterdown.py` |
+| `/getting-around-totterdown/` | `pages/getting_around_totterdown.py` |
 | `/vale-street/` | `pages/vale_street.py` |
 | `/totterdown-history/` | `pages/totterdown_history.py` |
 | `/totterdown-arts-trail/` | `pages/totterdown_arts_trail.py` |
@@ -33,8 +39,9 @@ python3 _build/check.py          # check every page (links, citations, sitemap, 
   order of first use.
 - **Update a guide:** edit its module, change `modified` in `META` and the
   "Updated" line, then rebuild. The sitemap picks up the new date.
-- **New guide:** copy a guide module, give it a new `slug`, add it to `NAV`
-  and `GUIDES` in `lib.py`, then rebuild.
+- **New guide:** copy a guide module, give it a new `slug`, add it to a
+  section in `SECTIONS` in `lib.py` (and to `NAV` if it belongs in the top
+  menu), then rebuild. Every guide automatically links to all the others.
 - **Change the stylesheet or script:** bump `ASSET_VERSION` in `lib.py`.
 - **Log a correction:** add it to the corrections list in `pages/about.py`.
 
