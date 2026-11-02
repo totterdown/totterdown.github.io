@@ -1,4 +1,4 @@
-"""404 page. Cloudflare Pages serves site/404.html for any missing URL."""
+"""404 page. GitHub Pages serves site/404.html for any missing URL."""
 import lib
 
 SLUG = '404'

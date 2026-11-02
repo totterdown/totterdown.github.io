@@ -1,6 +1,6 @@
 # Totterdown.com
 
-Sourced guides to Totterdown, Bristol, plus a domain-for-sale page. Published by Cloudflare Pages from `site/`.
+Sourced guides to Totterdown, Bristol, plus a domain-for-sale page. Published to GitHub Pages from `site/` by `.github/workflows/pages.yml`.
 
 ## Ground rules
 

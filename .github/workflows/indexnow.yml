@@ -37,7 +37,7 @@ jobs:
           cat urls.txt
           echo "count=$(grep -c . urls.txt || true)" >> "$GITHUB_OUTPUT"
 
-      - name: Wait for Cloudflare Pages to deploy
+      - name: Wait for GitHub Pages to deploy
         if: steps.urls.outputs.count != '0'
         run: sleep 120
 

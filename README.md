@@ -2,19 +2,18 @@
 
 Sourced guides to Totterdown, Bristol, and the sale page for the domain.
 
-- `site/` is the published website. Cloudflare Pages serves this folder.
+- `site/` is the published website. GitHub Pages serves this folder through `.github/workflows/pages.yml`, which runs `_build/check.py` first and won't publish if it fails.
 - `_build/` is the page builder. It is never published.
 
-## Cloudflare Pages settings
+## GitHub Pages settings
 
 | Setting | Value |
 |---|---|
-| Framework preset | None |
-| Build command | *(blank)* |
-| Build output directory | `site` |
-| Production branch | `main` |
+| Settings → Pages → Source | GitHub Actions |
+| Custom domain | `totterdown.com` (also in `site/CNAME`) |
+| Enforce HTTPS | On, once the certificate is issued |
 
-`site/_headers` sets the security headers. `site/404.html` is served for missing pages.
+GitHub Pages ignores `site/_headers`. To send the security headers, put the domain behind Cloudflare's proxy and add them there as a Response Header Transform Rule. `site/404.html` is served for missing pages.
 
 ## Before launch
 

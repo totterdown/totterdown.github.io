@@ -5,7 +5,7 @@ written as [[source_key]] and numbered automatically in order of first use;
 the sources list at the foot of the page comes from _build/data/sources.json,
 so a source is defined once for every page.
 
-Pages are written to site/, the folder Cloudflare Pages publishes.
+Pages are written to site/, the folder published to GitHub Pages.
 """
 import datetime
 import html
