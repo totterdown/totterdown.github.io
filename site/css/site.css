@@ -223,3 +223,10 @@ h1 {
 .consent button { padding: 8px 16px; border-radius: 8px; border: 1px solid var(--accent); background: var(--accent); color: #fff; font-weight: 700; }
 .consent button.secondary { background: transparent; color: var(--accent); }
 .linkish { padding: 0; border: 0; background: none; color: var(--accent); text-decoration: underline; }
+
+/* Sale page: what can be included */
+.included { width: 100%; max-width: 520px; margin: 40px auto 0; text-align: left; }
+.included ul { margin: 0; padding: 18px 22px 18px 40px; border: 1px solid var(--line); border-radius: 10px; background: var(--card); }
+.included li { margin-bottom: 6px; }
+.included strong { color: var(--ink); }
+.intro strong { color: var(--ink); }

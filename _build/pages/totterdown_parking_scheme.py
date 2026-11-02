@@ -13,7 +13,7 @@ META = {
 }
 
 BODY = r'''    <p class="meta">Updated 2 November 2026. Every figure links to its source. Plans change after consultations, so check the council's pages before you rely on a detail. <a href="/about/">How we check facts</a>.</p>
-    <p>Bristol City Council is proposing a residents' parking scheme (RPS) for Totterdown, alongside changes to streets in the area under the South Bristol Liveable Neighbourhood. This guide sets out what's proposed, what permits cost in Bristol's existing schemes, and how to have your say.</p>
+    <p>Bristol City Council is proposing a residents' parking scheme (RPS) for Totterdown, alongside changes to streets in the area under the South Bristol Liveable Neighbourhood. This guide sets out what's proposed, what permits cost in Bristol's existing schemes, and how to have your say. It takes no position for or against the scheme.</p>
 
     <section class="summary" aria-label="Quick answer">
       <h2>Quick answer</h2>

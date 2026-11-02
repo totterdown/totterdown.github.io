@@ -18,7 +18,7 @@ OUT = os.path.join(os.path.dirname(ROOT), 'site')
 
 SITE = 'https://totterdown.com'
 NAME = 'Totterdown.com'
-ASSET_VERSION = 1  # bump when site/css/site.css or site/js/site.js changes
+ASSET_VERSION = 2  # bump when site/css/site.css or site/js/site.js changes
 
 # The "Make an offer" Google Form (from the domain's own Google account).
 # Until it is set, the offer button points at the About page and check.py warns.
