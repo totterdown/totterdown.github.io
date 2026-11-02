@@ -1,0 +1,57 @@
+name: IndexNow
+
+# Tells Bing, Yandex and other IndexNow search engines to recrawl pages
+# after a change to the live site. A push submits only the pages it
+# changed; a manual run submits every URL in site/sitemap.xml.
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Work out which URLs to submit
+        id: urls
+        env:
+          BEFORE: ${{ github.event.before }}
+          AFTER: ${{ github.sha }}
+          EVENT: ${{ github.event_name }}
+        run: |
+          grep -o '<loc>[^<]*</loc>' site/sitemap.xml | sed -e 's/<loc>//' -e 's/<\/loc>//' > sitemap-urls.txt
+          if [ "$EVENT" = "push" ] && [ -n "$BEFORE" ] && ! echo "$BEFORE" | grep -qE '^0+$' && git cat-file -e "$BEFORE" 2>/dev/null; then
+            git diff --name-only "$BEFORE" "$AFTER" -- 'site/*.html' 'site/**/*.html' \
+              | sed -e 's#^site/##' \
+              | sed -n -e 's#^index\.html$#/#p' -e 's#^\(.*\)/index\.html$#/\1/#p' \
+              | sed 's#^#https://totterdown.com#' \
+              | grep -Fxf sitemap-urls.txt > urls.txt || true
+          else
+            cp sitemap-urls.txt urls.txt
+          fi
+          echo "URLs to submit:"
+          cat urls.txt
+          echo "count=$(grep -c . urls.txt || true)" >> "$GITHUB_OUTPUT"
+
+      - name: Wait for Cloudflare Pages to deploy
+        if: steps.urls.outputs.count != '0'
+        run: sleep 120
+
+      - name: Submit URLs
+        if: steps.urls.outputs.count != '0'
+        env:
+          HOST: totterdown.com
+          KEY: e526d92d8e92b83023a8ca5a1cc58745
+        run: |
+          urls=$(jq -R . urls.txt | jq -s .)
+          body=$(jq -n --arg host "$HOST" --arg key "$KEY" --argjson urls "$urls" \
+            '{host: $host, key: $key, keyLocation: "https://\($host)/\($key).txt", urlList: $urls}')
+          echo "$body"
+          status=$(curl -s -o /dev/null -w '%{http_code}' -X POST https://api.indexnow.org/indexnow \
+            -H 'Content-Type: application/json; charset=utf-8' -d "$body")
+          echo "IndexNow response: $status"
+          case "$status" in 200|202) ;; *) exit 1 ;; esac

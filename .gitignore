@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+node_modules/
+.DS_Store
+
+# Private notes never belong in this repo (valuation, prices, offers)
+private/
+*.xlsx
+*.xls
+*.ods
+*.numbers
+*.csv
+*valuation*
+*price-notes*

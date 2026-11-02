@@ -1,0 +1,17 @@
+name: Check site
+
+# Fails the push if a generated page is out of date or any page has a
+# broken link, missing source, over-long title or other problem.
+on:
+  push:
+  pull_request:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python3 _build/check.py
