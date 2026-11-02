@@ -17,12 +17,57 @@
    ]
   ]
  },
+ "banksy_auction": {
+  "label": "Banksy's Bristol artwork Aachoo set to be auctioned, NME, March 2021",
+  "links": [
+   [
+    "nme.com",
+    "https://www.nme.com/news/banksys-bristol-artwork-aachoo-set-to-be-auctioned-2899734"
+   ]
+  ]
+ },
+ "banksy_b247": {
+  "label": "Banksy confirmed to be behind artwork on side of Totterdown house, Bristol24/7, December 2020",
+  "links": [
+   [
+    "bristol247.com",
+    "https://www.bristol247.com/culture/art/banksy-confirmed-to-be-behind-artwork-on-side-of-totterdown-house"
+   ]
+  ]
+ },
+ "banksy_cnn": {
+  "label": "Banksy confirms 'Aachoo!!' mural in Bristol, CNN, December 2020",
+  "links": [
+   [
+    "cnn.com",
+    "https://amp.cnn.com/cnn/style/article/banksy-bristol-mural-aachoo-intl-hnk"
+   ]
+  ]
+ },
+ "banksy_removed": {
+  "label": "Banksy's Aachoo!! removed by crane from wall of Totterdown house, Bristol24/7, March 2021",
+  "links": [
+   [
+    "bristol247.com",
+    "https://www.bristol247.com/culture/art/banksys-aachoo-removed-by-crane-from-wall-of-totterdown-house/"
+   ]
+  ]
+ },
  "bridge": {
   "label": "Archaeological excavation of site at Totterdown Bridge, TRESA",
   "links": [
    [
     "tresa.org.uk",
     "https://www.tresa.org.uk/archaeological-excavation-of-site-at-totterdown-bridge/"
+   ]
+  ]
+ },
+ "bus512": {
+  "label": "512 Totterdown – Windmill Hill – Bedminster – Redcliffe – Bristol City Centre, bustimes.org",
+  "links": [
+   [
+    "bustimes.org",
+    "https://bustimes.org/services/512-totterdown-bedminster-bristol-centre-2"
    ]
   ]
  },
@@ -201,6 +246,28 @@
    ]
   ]
  },
+ "perretts": {
+  "label": "Perrett's Park, Wikipedia; Perrett Park, Bristol City Council park finder",
+  "links": [
+   [
+    "wikipedia.org",
+    "https://en.wikipedia.org/wiki/Perrett%27s_Park"
+   ],
+   [
+    "bristol.gov.uk",
+    "https://www.bristol.gov.uk/residents/museums-parks-sports-and-culture/parks-and-open-spaces/parks-with-play-equipment/park-finder/park?id=71"
+   ]
+  ]
+ },
+ "police_uk": {
+  "label": "Crime map by postcode, police.uk",
+  "links": [
+   [
+    "police.uk",
+    "https://www.police.uk/"
+   ]
+  ]
+ },
  "richmond": {
   "label": "It's a tight-knit street life in Totterdown's coloured houses, Bristol Post via inkl",
   "links": [
@@ -309,6 +376,15 @@
    ]
   ]
  },
+ "streetcheck": {
+  "label": "Crime near Bath Road, Totterdown, BS4 3EF, October 2025, StreetCheck",
+  "links": [
+   [
+    "streetcheck.co.uk",
+    "https://www.streetcheck.co.uk/crime/bs43ef"
+   ]
+  ]
+ },
  "tat_2014": {
   "label": "10 years of Bristol24/7: Totterdown and North Bristol arts trails, Bristol24/7",
   "links": [
@@ -387,6 +463,15 @@
    [
     "historicengland.org.uk",
     "https://historicengland.org.uk/listing/the-list/list-entry/1203998"
+   ]
+  ]
+ },
+ "tooting": {
+  "label": "Totterdown Fields, Wikipedia",
+  "links": [
+   [
+    "wikipedia.org",
+    "https://en.wikipedia.org/wiki/Totterdown_Fields"
    ]
   ]
  },
@@ -471,6 +556,24 @@
    ]
   ]
  },
+ "vb_locals": {
+  "label": "The locals' guide: Totterdown, Visit Bristol",
+  "links": [
+   [
+    "visitbristol.co.uk",
+    "https://visitbristol.co.uk/blog/post/the-locals-guide-totterdown/"
+   ]
+  ]
+ },
+ "vb_windmill": {
+  "label": "The locals' guide: Windmill Hill, Visit Bristol",
+  "links": [
+   [
+    "visitbristol.co.uk",
+    "https://visitbristol.co.uk/blog/post/the-locals-guide-windmill-hill"
+   ]
+  ]
+ },
  "walk_temple": {
   "label": "Walks from Bristol train stations, Visit Bristol",
   "links": [
@@ -504,6 +607,15 @@
    [
     "wikipedia.org",
     "https://en.wikipedia.org/wiki/Windmill_Hill,_Bristol"
+   ]
+  ]
+ },
+ "where_tresa": {
+  "label": "Where is Totterdown?, TRESA",
+  "links": [
+   [
+    "tresa.org.uk",
+    "https://www.tresa.org.uk/where-is-totterdown/"
    ]
   ]
  }

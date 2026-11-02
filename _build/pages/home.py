@@ -41,12 +41,12 @@ def build(data):
       <p>Totterdown is a neighbourhood in south Bristol, on the steep hill above the River Avon and Temple Meads station, in the city's Windmill Hill ward. In short:</p>
       <ul>
         <li>It was built in late Victorian times to house railway workers, and many of its terraces are now painted in bright colours. <a href="/totterdown-history/#victorian">History</a></li>
-        <li>Vale Street, with an average gradient of about 21.8%, was named England's steepest residential street by Ordnance Survey in 2019. <a href="/vale-street/">Vale Street</a></li>
+        <li>Vale Street, with an average gradient of about 21.8%, was named England's steepest residential street by Ordnance Survey in 2019, and was briefly home to Banksy's "Aachoo!!" mural. <a href="/vale-street/">Vale Street</a></li>
         <li>More than 500 homes and businesses were demolished from about 1968 for a ring road that was never built. <a href="/totterdown-history/#road">The lost road</a></li>
         <li>Homes sold for an average of £374,399 in the year to early 2026. <a href="/living-in-totterdown/#prices">House prices</a></li>
         <li>The Totterdown Arts Trail, held since 2001, returns on 14 and 15 November 2026. <a href="/totterdown-arts-trail/">Arts trail</a></li>
       </ul>
-      <p>Each figure is sourced on the linked guide.</p>
+      <p>Each figure is sourced on the linked guide. This site is about Totterdown in Bristol; Totterdown Fields in Tooting, London, is a different place.</p>
     </section>
   </main>
 

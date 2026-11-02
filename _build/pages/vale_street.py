@@ -3,9 +3,9 @@ from lib import page
 
 META = {
     'slug': 'vale-street',
-    'title': "Vale Street, Bristol: England's Steepest Street",
-    'desc': "Vale Street in Totterdown, Bristol: how steep it is, why Ordnance Survey named it England's steepest street, the Easter egg roll and how to visit.",
-    'og_desc': "How steep Vale Street is, who measured it, the Easter egg roll and how to visit England's steepest residential street.",
+    'title': "Vale Street, Bristol: England's Steepest Street & Banksy",
+    'desc': "Vale Street, Bristol: how steep England's steepest street is, the Banksy Aachoo!! mural and what happened to it, the Easter egg roll and how to visit.",
+    'og_desc': "How steep Vale Street is, the Banksy that appeared on it, the Easter egg roll and how to visit England's steepest residential street.",
     'crumb': 'Vale Street',
     'h1': "Vale Street: England's steepest residential street",
     'published': '2026-11-02',
@@ -13,7 +13,7 @@ META = {
 }
 
 BODY = r'''    <p class="meta">Updated 2 November 2026. Every figure links to its source. <a href="/about/">How we check facts</a>.</p>
-    <p>Vale Street is a short residential street of terraced houses in Totterdown, on the hillside above Bristol Temple Meads. In 2019 it was reported as England's steepest residential street, and it's best known for an Easter egg-rolling race down the hill.</p>
+    <p>Vale Street is a short residential street of terraced houses in Totterdown, on the hillside above Bristol Temple Meads. In 2019 it was reported as England's steepest residential street, and it's best known for an Easter egg-rolling race down the hill and, briefly, a Banksy.</p>
 
     <section class="summary" aria-label="Quick answer">
       <h2>Quick answer</h2>
@@ -22,6 +22,7 @@ BODY = r'''    <p class="meta">Updated 2 November 2026. Every figure links to it
         <li><strong>Gradient:</strong> an average of about 21.8%, according to Ordnance Survey figures reported by Bristol24/7. [[vale_cadbury]] Some reports describe it as 22 degrees, which would be far steeper; the percentage is the figure to use.</li>
         <li><strong>Britain and the world:</strong> Ffordd Pen Llech in Harlech, Wales, is often cited as steeper, and Baldwin Street in Dunedin, New Zealand, holds the Guinness world record. [[ffordd]]</li>
         <li><strong>Egg rolling:</strong> residents race hard-boiled eggs down the street every Easter Sunday. [[egg_itv]] [[egg_b247]]</li>
+        <li><strong>Banksy:</strong> his "Aachoo!!" mural appeared on a house on Vale Street in December 2020. It was lifted off by crane in March 2021, so you can't see it there any more. [[banksy_b247]] [[banksy_removed]]</li>
       </ul>
     </section>
 
@@ -30,6 +31,7 @@ BODY = r'''    <p class="meta">Updated 2 November 2026. Every figure links to it
         <li><a href="#how-steep">How steep is Vale Street?</a></li>
         <li><a href="#compare">How does it compare with other steep streets?</a></li>
         <li><a href="#eggs">The Vale Street Easter egg roll</a></li>
+        <li><a href="#banksy">The Vale Street Banksy</a></li>
         <li><a href="#living">What's it like to live on?</a></li>
         <li><a href="#visit">How to visit</a></li>
         <li><a href="#sources">Sources</a></li>
@@ -57,6 +59,14 @@ BODY = r'''    <p class="meta">Updated 2 November 2026. Every figure links to it
     <ul>
       <li><strong>How long it's run:</strong> ITV described the gathering in 2024 as more than 30 years old; Bristol24/7 put it at 25 years, with only the pandemic stopping it. [[egg_itv]] [[egg_b247]]</li>
       <li><strong>Next date:</strong> Easter Sunday 2027 is 28 March. Check local listings nearer the time for the start time.</li>
+    </ul>
+
+    <h2 id="banksy">Is the Banksy still on Vale Street?</h2>
+    <p>No. Banksy's "Aachoo!!", a stencil of an elderly woman sneezing so hard her false teeth fly out, appeared on the side of a house on Vale Street and was confirmed by the artist on 10 December 2020. [[banksy_b247]] [[banksy_cnn]]</p>
+    <ul>
+      <li><strong>A crowd-puller:</strong> on the morning it appeared, visitors posed as if blown back by the sneeze. [[banksy_cnn]]</li>
+      <li><strong>Covered up:</strong> the stencil was quickly covered with Perspex, and later boarded over. [[banksy_b247]] [[banksy_removed]]</li>
+      <li><strong>Removed:</strong> on 12 March 2021 a crane lifted the section of wall off the house, and it was taken away to be sold at auction. [[banksy_removed]] [[banksy_auction]]</li>
     </ul>
 
     <h2 id="living">What is it like to live on Vale Street?</h2>

@@ -36,7 +36,7 @@ GUIDES = [
     ('/totterdown-parking-scheme/', "Totterdown residents' parking scheme",
      'The 2026 survey, permit prices and the South Bristol Liveable Neighbourhood'),
     ('/vale-street/', 'Vale Street: England\'s steepest street',
-     'How steep it is, who measured it, and the Easter egg roll'),
+     'How steep it is, the Banksy that appeared on it, and the Easter egg roll'),
     ('/totterdown-history/', 'Totterdown history',
      'Railway terraces, Three Lamps, the first mosque in Bristol and the road that was never built'),
     ('/totterdown-arts-trail/', 'Totterdown Arts Trail 2026',
@@ -44,7 +44,7 @@ GUIDES = [
     ('/living-in-totterdown/', 'Living in Totterdown',
      'House prices, schools, getting to Temple Meads and the Clean Air Zone'),
     ('/things-to-do-in-totterdown/', 'Things to do in Totterdown',
-     'The coloured houses, historic pubs, Arnos Vale and the best walks'),
+     'The coloured houses, pubs, cafés, the best views and Arnos Vale'),
 ]
 
 
