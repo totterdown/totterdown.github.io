@@ -25,7 +25,6 @@ def build(data):
     <p class="intro"><strong>A working local site, not just a name.</strong> The exact-match .com for Totterdown, the Bristol neighbourhood known for its coloured houses, England's steepest street and the city's oldest arts trail, with the sourced guides on this site available alongside it. A fit for an estate agent, local business, community group or publisher.</p>
 
     <a class="btn" id="offer" data-lead="offer_button" href="{lib.offer_href()}"{ext}>Make an offer</a>
-    <p class="small">No price is listed. Payment goes through Escrow.com, which holds the buyer's money until the domain has been transferred, so the buyer is protected.</p>
 
     <section class="included" aria-labelledby="included-title">
       <h2 id="included-title" class="guides-title">What can be included</h2>

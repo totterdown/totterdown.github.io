@@ -1,10 +1,28 @@
 {
+ "acappella": {
+  "label": "A Cappella, 184C Wells Road; restaurants near Totterdown Canteen, Tripadvisor",
+  "links": [
+   [
+    "tripadvisor.co.uk",
+    "https://www.tripadvisor.co.uk/RestaurantsNear-g186220-d7598276-Totterdown_Canteen-Bristol_England.html"
+   ]
+  ]
+ },
  "admissions": {
   "label": "Allocation of new Year 7 places, Bristol City Council",
   "links": [
    [
     "bristol.gov.uk",
     "https://services.bristol.gov.uk/residents/schools-learning-and-early-years/school-admissions/secondary-admissions/allocation-of-new-year-7-places-for-september-2022"
+   ]
+  ]
+ },
+ "alwaha_fsa": {
+  "label": "Al Waha, 147 Wells Road, food hygiene rating",
+  "links": [
+   [
+    "foodhygieneratings.org.uk",
+    "https://www.foodhygieneratings.org.uk/al-waha"
    ]
   ]
  },
@@ -26,6 +44,15 @@
    ]
   ]
  },
+ "asia_garden": {
+  "label": "Asia Garden, 29 Oxford Street, Tripaligner",
+  "links": [
+   [
+    "tripaligner.com",
+    "https://tripaligner.com/countries/united-kingdom-34/destinations/bristol-1902/places/asia-garden-3265611"
+   ]
+  ]
+ },
  "b365": {
   "label": "Bristol neighbourhood guide: Totterdown, 365Bristol",
   "links": [
@@ -35,12 +62,30 @@
    ]
   ]
  },
+ "bakehouse": {
+  "label": "The Bakehouse, 118 Oxford Street, food hygiene rating",
+  "links": [
+   [
+    "foodhygieneratings.org.uk",
+    "https://www.foodhygieneratings.org.uk/the-bakehouse-bristol"
+   ]
+  ]
+ },
  "bank_b247": {
   "label": "Award-winning barista to open new cafe and cocktail bar, Bristol24/7",
   "links": [
    [
     "bristol247.com",
     "https://www.bristol247.com/food-and-drink/news-food-and-drink/award-winning-barista-to-open-new-cafe-and-cocktail-bar/"
+   ]
+  ]
+ },
+ "bank_hardens": {
+  "label": "BANK, 107 Wells Road, Harden's",
+  "links": [
+   [
+    "hardens.com",
+    "https://hardens.com/az/restaurants/bristol/bs4/bank.htm"
    ]
   ]
  },
@@ -95,6 +140,15 @@
    [
     "tresa.org.uk",
     "https://www.tresa.org.uk/archaeological-excavation-of-site-at-totterdown-bridge/"
+   ]
+  ]
+ },
+ "bristol_sauce": {
+  "label": "26 Bristol restaurants to visit in 2026, The Bristol Sauce",
+  "links": [
+   [
+    "thebristolsauce.com",
+    "https://www.thebristolsauce.com/p/26-bristol-restaurants-to-visit-in"
    ]
   ]
  },
@@ -197,6 +251,24 @@
    ]
   ]
  },
+ "carouse": {
+  "label": "New wine shop and bar preparing to pop the cork, Bristol24/7, 2025",
+  "links": [
+   [
+    "bristol247.com",
+    "https://www.bristol247.com/food-and-drink/news-food-and-drink/new-wine-shop-and-bar-preparing-to-pop-the-cork/"
+   ]
+  ]
+ },
+ "carouse_inf": {
+  "label": "Carouse Wines review, The Infatuation",
+  "links": [
+   [
+    "theinfatuation.com",
+    "https://www.theinfatuation.com/bristol/reviews/carouse-wines"
+   ]
+  ]
+ },
  "caz_14": {
   "label": "Clean Air Zone charges could increase to £14 a day, Bristol24/7",
   "links": [
@@ -287,12 +359,57 @@
    ]
   ]
  },
+ "farrows": {
+  "label": "Award-winning fish and chip shop to open second premises, Bristol24/7",
+  "links": [
+   [
+    "bristol247.com",
+    "https://www.bristol247.com/food-and-drink/news-food-and-drink/award-winning-fish-and-chip-shop-to-open-second-premises"
+   ]
+  ]
+ },
+ "farrows_fsa": {
+  "label": "Farrows, 146 Wells Road, food hygiene rating",
+  "links": [
+   [
+    "foodhygieneratings.org.uk",
+    "https://www.foodhygieneratings.org.uk/farrows-bristol"
+   ]
+  ]
+ },
  "ffordd": {
   "label": "What is it like living on Britain's 'steepest street'?, Yahoo News",
   "links": [
    [
     "yahoo.com",
     "https://ca.news.yahoo.com/what-is-it-like-living-on-britains-steepest-street-140008703.html"
+   ]
+  ]
+ },
+ "florence_fsa": {
+  "label": "Florence, Oxford Street, BS3 4RJ, food hygiene listing",
+  "links": [
+   [
+    "hygienescore.co.uk",
+    "https://www.hygienescore.co.uk/business/florence-bs3-4rj"
+   ]
+  ]
+ },
+ "florence_review": {
+  "label": "We visit the tucked-away Bristol pizza restaurant, Bristol World",
+  "links": [
+   [
+    "bristolworld.com",
+    "https://www.bristolworld.com/news/we-visit-the-tucked-away-bristol-pizza-restaurant-that-serves-authentic-food-at-affordable-prices-4509610"
+   ]
+  ]
+ },
+ "foxwest": {
+  "label": "Shop of the week: Fox & West, Bristol24/7",
+  "links": [
+   [
+    "bristol247.com",
+    "https://www.bristol247.com/food-and-drink/shops-food-and-drink/shop-of-the-week-fox-west/"
    ]
   ]
  },
@@ -356,6 +473,19 @@
    [
     "alha.org.uk",
     "https://www.alha.org.uk/organisation/knowle-totterdown-local-history-society"
+   ]
+  ]
+ },
+ "lauras": {
+  "label": "Laura's Pizzas Totterdown, Deliveroo; Food Standards Agency rating",
+  "links": [
+   [
+    "deliveroo.co.uk",
+    "https://deliveroo.co.uk/menu/bristol/windmill-hill-victoria-park/lauras-pizzas-totterdown"
+   ],
+   [
+    "food.gov.uk",
+    "https://ratings.food.gov.uk/business/1866176/lauras-pizzas-totterdown-totterdown/online-ratings"
    ]
   ]
  },
@@ -435,6 +565,15 @@
    ]
   ]
  },
+ "newfound": {
+  "label": "New Found Out, 60 Green Street, CAMRA WhatPub",
+  "links": [
+   [
+    "camra.org.uk",
+    "https://camra.org.uk/pubs/new-found-out-bristol-114063"
+   ]
+  ]
+ },
  "nhs_gp": {
   "label": "Find a GP in Bristol, NHS website",
   "links": [
@@ -468,6 +607,15 @@
    [
     "catchment.school",
     "https://catchment.school/school/oasis-academy-temple-quarter-149784"
+   ]
+  ]
+ },
+ "oxford_fsa": {
+  "label": "The Oxford, Oxford Street, BS3 4RL, food hygiene listing",
+  "links": [
+   [
+    "hygienescore.co.uk",
+    "https://www.hygienescore.co.uk/business/the-oxford-bs3-4rl"
    ]
   ]
  },
@@ -706,6 +854,33 @@
    [
     "streetcheck.co.uk",
     "https://www.streetcheck.co.uk/crime/bs43ef"
+   ]
+  ]
+ },
+ "sundial_brunch": {
+  "label": "The best brunches in Bristol, Life Less Organised, May 2026",
+  "links": [
+   [
+    "lifelessorganised.com",
+    "https://lifelessorganised.com/2026/05/18/the-best-of-the-brunch-in-bristol/"
+   ]
+  ]
+ },
+ "sundial_fsa": {
+  "label": "The Sundial Kitchen, 1 William Street, food hygiene rating",
+  "links": [
+   [
+    "foodhygieneratings.org.uk",
+    "https://www.foodhygieneratings.org.uk/the-sundial-kitchen"
+   ]
+  ]
+ },
+ "sundial_open": {
+  "label": "New vegetarian cafe and event space opens in Bristol, Bristol Post via inkl",
+  "links": [
+   [
+    "inkl.com",
+    "https://www.inkl.com/news/new-vegetarian-cafe-and-event-space-opens-in-bristol"
    ]
   ]
  },

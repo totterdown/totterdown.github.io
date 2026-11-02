@@ -20,7 +20,7 @@ BODY = r'''    <p class="meta">Updated 2 November 2026. Opening hours change, so
       <ul>
         <li><strong>See:</strong> the coloured terraces, including Richmond Street, and <a href="/vale-street/">Vale Street</a>, England's steepest residential street. [[richmond]] [[vale_itv]]</li>
         <li><strong>Drink:</strong> the Thunderbolt, a former tollhouse, plus the Shakespeare and the Star &amp; Dove. [[turnpike]] [[camra_shakes]] [[camra_star]]</li>
-        <li><strong>Eat:</strong> a fry-up at Totterdown Canteen, pizza at A Cappella, fish and chips at Farrows. [[vb_locals]]</li>
+        <li><strong>Eat:</strong> brunch at the Sundial Kitchen, a fry-up at Totterdown Canteen, pizza from Laura's or A Cappella, fish and chips at Farrows. [[sundial_brunch]] [[lauras]] [[vb_locals]]</li>
         <li><strong>Walk:</strong> Arnos Vale, a Victorian garden cemetery on the Bath Road, or up to Perrett's Park for one of Bristol's best skyline views. [[arnos]] [[perretts]]</li>
         <li><strong>Time it:</strong> the <a href="/totterdown-arts-trail/">arts trail</a> on 14 and 15 November 2026, or the Vale Street egg roll on Easter Sunday. [[tat_faq]] [[egg_itv]]</li>
       </ul>
@@ -62,12 +62,15 @@ BODY = r'''    <p class="meta">Updated 2 November 2026. Opening hours change, so
     <p>Bruhaha, a nano brewery and bar, is another local suggestion for an evening out. [[vb_locals]] The full list is in <a href="/food-and-drink-in-totterdown/">where to eat and drink</a>.</p>
 
     <h2 id="eat">Where to eat in Totterdown</h2>
-    <p>Most of Totterdown's cafés and restaurants are on and around the Wells Road. Visit Bristol's locals' guide recommends: [[vb_locals]]</p>
+    <p>Most of Totterdown's cafés and restaurants are on the Wells Road and Oxford Street, with a few on the side streets. Highlights:</p>
     <ul>
-      <li><strong>Totterdown Canteen:</strong> a cooked breakfast.</li>
-      <li><strong>Farrows:</strong> fish and chips.</li>
-      <li><strong>A Cappella:</strong> pizza.</li>
+      <li><strong>The Sundial Kitchen, William Street:</strong> a small vegetarian café popular for brunch. [[sundial_brunch]]</li>
+      <li><strong>Totterdown Canteen, Wells Road:</strong> a cooked breakfast. [[vb_locals]]</li>
+      <li><strong>Laura's Pizzas, William Street:</strong> Neapolitan pizza to take away. [[lauras]]</li>
+      <li><strong>Farrows, Wells Road:</strong> award-winning fish and chips. [[farrows]]</li>
+      <li><strong>Florence, Oxford Street:</strong> good-value Italian. [[florence_review]]</li>
     </ul>
+    <p>All of them, with addresses, in <a href="/food-and-drink-in-totterdown/">where to eat and drink</a>.</p>
     <p>Places open and close, so check opening times before you set off.</p>
 
     <h2 id="parks">Where are the best views of Bristol from Totterdown?</h2>

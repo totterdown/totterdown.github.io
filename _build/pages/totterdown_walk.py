@@ -41,7 +41,7 @@ BODY = r'''    <p class="meta">Updated 2 November 2026. Totterdown is very steep
       <li id="stop-6"><strong>Bristol Jamia Mosque, Green Street.</strong> Bristol's first mosque, in a former church bought in 1968. [[mosque]] __MAP_MOSQUE__</li>
       <li id="stop-7"><strong>Richmond Street.</strong> One of the best-known rows of coloured houses, with more than 70 homes, most of them brightly painted. [[richmond]] __MAP_RICHMOND__</li>
       <li id="stop-8"><strong>Vale Street.</strong> England's steepest residential street, home to the Easter egg roll, and briefly to Banksy's "Aachoo!!". [[vale_itv]] [[banksy_removed]] <a href="/vale-street/">Vale Street guide</a>. __MAP_VALE__</li>
-      <li id="stop-9"><strong>The Wells Road.</strong> Totterdown's high street, with cafés, pizza and the Bruhaha brewpub. [[vb_locals]] [[bruhaha_b247]] <a href="/food-and-drink-in-totterdown/">Where to eat</a>. __MAP_WELLS__</li>
+      <li id="stop-9"><strong>The Wells Road and Oxford Street.</strong> Totterdown's two shopping streets, with cafés, Farrows' fish and chips, the Bruhaha brewpub and the Carouse wine bar. [[farrows]] [[bruhaha_b247]] [[carouse]] <a href="/food-and-drink-in-totterdown/">Where to eat</a>. __MAP_WELLS__</li>
       <li id="stop-10"><strong>Perrett's Park.</strong> Finish with one of the best views of the city, especially at Balloon Fiesta time in August. [[perretts]] __MAP_PERRETTS__</li>
     </ol>
 

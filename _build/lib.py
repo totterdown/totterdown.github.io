@@ -37,7 +37,7 @@ SECTIONS = [
         ('/things-to-do-in-totterdown/', 'Things to do in Totterdown',
          'The coloured houses, Vale Street, pubs, views and Arnos Vale'),
         ('/food-and-drink-in-totterdown/', 'Where to eat and drink',
-         'Pubs, a brewpub, cafés, pizza and fish and chips on and around the Wells Road'),
+         'Pubs, Bruhaha, Sundial Kitchen, Laura\'s Pizzas, Farrows, Florence and more, street by street'),
         ('/totterdown-walk/', 'A self-guided Totterdown walk',
          'Ten sights from Totterdown Bridge to Perrett\'s Park, with map links'),
         ('/vale-street/', "Vale Street: England's steepest street",
