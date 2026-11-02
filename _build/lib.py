@@ -22,7 +22,7 @@ ASSET_VERSION = 1  # bump when site/css/site.css or site/js/site.js changes
 
 # The "Make an offer" Google Form (from the domain's own Google account).
 # Until it is set, the offer button points at the About page and check.py warns.
-OFFER_URL = ''
+OFFER_URL = 'https://docs.google.com/forms/d/e/1FAIpQLSfiCXJCVAg9Aymty07FjQuhIPZLeLgtK3EtV7hSvmo4XViZIA/viewform'
 # Google Analytics 4 measurement ID, e.g. 'G-XXXXXXXXXX'. Empty means no analytics.
 # When set, analytics loads only after a visitor accepts the cookie banner.
 GA_ID = ''
