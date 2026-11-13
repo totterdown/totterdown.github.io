@@ -947,6 +947,15 @@
    ]
   ]
  },
+ "tat_venues": {
+  "label": "Find an art venue in Totterdown (maps), Totterdown Arts Trail",
+  "links": [
+   [
+    "totterdownartstrail.org",
+    "https://totterdownartstrail.org/find-art-venue-totterdown/"
+   ]
+  ]
+ },
  "temple_island": {
   "label": "Bristol £350m Temple Island scheme approved, Construction Enquirer, 7 April 2026",
   "links": [
@@ -1034,6 +1043,15 @@
    [
     "tresa.org.uk",
     "https://www.tresa.org.uk/wp-content/uploads/2026/05/TRESA-public-meeting-2026-05-17.pdf"
+   ]
+  ]
+ },
+ "tresa_revised": {
+  "label": "Revised plans for Totterdown: South Bristol Liveable Neighbourhoods, TRESA",
+  "links": [
+   [
+    "tresa.org.uk",
+    "https://www.tresa.org.uk/revised-plans-for-totterdown-south-bristol-liveable-neighbourhoods/"
    ]
   ]
  },

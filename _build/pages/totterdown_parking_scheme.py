@@ -4,21 +4,21 @@ from lib import page
 META = {
     'slug': 'totterdown-parking-scheme',
     'title': "Totterdown Residents' Parking Scheme 2026: Survey & Costs",
-    'desc': "Bristol's proposed Totterdown residents' parking scheme: the survey closing 5 November 2026, permit prices, streets covered and street changes.",
-    'og_desc': "The Totterdown residents' parking survey, permit prices, the area covered and the South Bristol Liveable Neighbourhood plans.",
+    'desc': "Bristol's proposed Totterdown residents' parking scheme: the survey that closed on 5 November 2026, permit prices, streets covered and what happens next.",
+    'og_desc': "Where the Totterdown residents' parking scheme stands after the council's survey closed, permit prices and the Liveable Neighbourhood plans.",
     'crumb': "Residents' parking scheme",
     'h1': "Totterdown residents' parking scheme",
     'published': '2026-11-02',
-    'modified': '2026-11-02',
+    'modified': '2026-11-13',
 }
 
-BODY = r'''    <p class="meta">Updated 2 November 2026. Every figure links to its source. Plans change after consultations, so check the council's pages before you rely on a detail. <a href="/about/">How we check facts</a>.</p>
-    <p>Bristol City Council is proposing a residents' parking scheme (RPS) for Totterdown, alongside changes to streets in the area under the South Bristol Liveable Neighbourhood. This guide sets out what's proposed, what permits cost in Bristol's existing schemes, and how to have your say. It takes no position for or against the scheme.</p>
+BODY = r'''    <p class="meta">Updated 13 November 2026. Every figure links to its source. Plans change after consultations, so check the council's pages before you rely on a detail. <a href="/about/">How we check facts</a>.</p>
+    <p>Bristol City Council is proposing a residents' parking scheme (RPS) for Totterdown, alongside changes to streets in the area under the South Bristol Liveable Neighbourhood. This guide sets out what's proposed, what permits cost in Bristol's existing schemes, and what happens next. It takes no position for or against the scheme.</p>
 
     <section class="summary" aria-label="Quick answer">
       <h2>Quick answer</h2>
       <ul>
-        <li><strong>Deadline:</strong> the council's survey on a Totterdown residents' parking scheme closes on <strong>5 November 2026</strong>. It asks about the scheme's operating hours and boundaries. [[rps_consult]]</li>
+        <li><strong>Status:</strong> the council's survey on a Totterdown residents' parking scheme <strong>closed on 5 November 2026</strong>. It asked about the scheme's operating hours and boundaries. [[rps_consult]] We haven't found a published result, a decision date or a start date.</li>
         <li><strong>Why now:</strong> the council says most people in Totterdown who answered its earlier Liveable Neighbourhood consultation asked for a parking scheme. [[rps_consult]]</li>
         <li><strong>Cost:</strong> in Bristol's existing schemes, a first resident permit costs £129 a year for most cars, a second £233 and a third £581. Visitor permits are £2 a day in most areas. [[permit_prices]]</li>
         <li><strong>Liveable Neighbourhood:</strong> after more than 4,000 consultation responses, the council scaled back its plans for Totterdown. Street changes are due to start from late 2026 and finish by the end of 2027. [[sbln_report]] [[sbln_news]] [[sbln_about]]</li>
@@ -31,7 +31,7 @@ BODY = r'''    <p class="meta">Updated 2 November 2026. Every figure links to it
         <li><a href="#area">Which streets are covered?</a></li>
         <li><a href="#cost">How much does a permit cost?</a></li>
         <li><a href="#sbln">What is the South Bristol Liveable Neighbourhood?</a></li>
-        <li><a href="#say">How do I have my say?</a></li>
+        <li><a href="#say">What happens next?</a></li>
         <li><a href="#sources">Sources</a></li>
       </ol>
     </nav>
@@ -39,13 +39,14 @@ BODY = r'''    <p class="meta">Updated 2 November 2026. Every figure links to it
     <h2 id="what">What is being proposed for Totterdown?</h2>
     <p>A residents' parking scheme sets aside on-street parking for people who live in an area, usually through permits, during set hours. The council's consultation asks Totterdown residents, businesses and visitors what they think of the scheme's proposed operating hours and its proposed boundaries. [[rps_consult]]</p>
     <ul>
-      <li><strong>Consultation:</strong> the survey is open until 5 November 2026. The council held drop-in sessions at The Harbour Totterdown on 15 October and Totterdown Baptist Church on 27 October. [[rps_consult]]</li>
+      <li><strong>Consultation:</strong> the survey ran until 5 November 2026. The council held drop-in sessions at The Harbour Totterdown on 15 October and Totterdown Baptist Church on 27 October. [[rps_consult]]</li>
       <li><strong>Part of a wider round:</strong> Totterdown is one of several new schemes proposed in south Bristol at the same time, with Windmill Hill, The Chessels and Parson Street, and Ashton Gate, plus a matchday scheme for Ashton Vale. [[rps_hub]]</li>
       <li><strong>Not yet decided:</strong> we haven't found a decision date, a start date or Totterdown-specific hours. We'll update this page when the council publishes them.</li>
+      <li><strong>A smaller area:</strong> the council has said it is taking forward residents' parking schemes in Totterdown but reducing the area the Totterdown scheme covers, with local consultations on each scheme. [[tresa_revised]]</li>
     </ul>
 
     <h2 id="area">Which streets would the scheme cover?</h2>
-    <p>The council describes the proposed Totterdown Liveable Neighbourhood as the area bounded by St Luke's Road, St John's Lane and Wells Road, and says the proposed residents' parking scheme also takes in the streets between Hill Avenue and St John's Lane. [[sbln_proposals]] Check the consultation map for your own street before you respond. [[rps_consult]]</p>
+    <p>The council describes the proposed Totterdown Liveable Neighbourhood as the area bounded by St Luke's Road, St John's Lane and Wells Road, and says the proposed residents' parking scheme also takes in the streets between Hill Avenue and St John's Lane. [[sbln_proposals]] Check the council's consultation map for your own street. [[rps_consult]]</p>
 
     <h2 id="cost">How much does a residents' parking permit cost in Bristol?</h2>
     <p>Bristol's permit prices changed on 8 April 2026. The council hasn't set separate prices for Totterdown, so these are the current rates in existing schemes. [[permit_prices]]</p>
@@ -77,11 +78,12 @@ BODY = r'''    <p class="meta">Updated 2 November 2026. Every figure links to it
       <li><strong>Timing:</strong> any street changes are due to start from late 2026 and be finished by the end of 2027. [[sbln_about]]</li>
     </ul>
 
-    <h2 id="say">How do I have my say?</h2>
+    <h2 id="say">What happens next with the Totterdown parking scheme?</h2>
+    <p>The survey has closed, so the next step is for the council to publish what it found and decide on hours and boundaries. We haven't found a date for that. Meanwhile:</p>
     <ol>
-      <li>Read the proposals and map on the council's <a href="https://www.bristol.gov.uk/ask/find-consultation-engagement/consultation-engagement?id=314" target="_blank" rel="nofollow noopener">Totterdown Residents' Parking Scheme page</a>. [[rps_consult]]</li>
-      <li>Complete the survey before it closes on 5 November 2026.</li>
-      <li>For local discussion, the residents' association TRESA covers parking and transport at its public meetings. [[tresa]]</li>
+      <li>Watch the council's <a href="https://www.bristol.gov.uk/ask/find-consultation-engagement/consultation-engagement?id=314" target="_blank" rel="nofollow noopener">Totterdown Residents' Parking Scheme page</a> for results and next steps. [[rps_consult]]</li>
+      <li>Check the council's list of proposed schemes, which covers the other south Bristol areas consulted at the same time. [[rps_hub]]</li>
+      <li>For local discussion, the residents' association TRESA covers parking and transport at its public meetings. [[tresa]] [[tresa_may26]]</li>
     </ol>
     <p>Driving through the area? See <a href="/living-in-totterdown/#caz">the Clean Air Zone boundary at Three Lamps</a>.</p>
 '''

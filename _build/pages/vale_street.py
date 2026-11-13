@@ -9,18 +9,18 @@ META = {
     'crumb': 'Vale Street',
     'h1': "Vale Street: England's steepest residential street",
     'published': '2026-11-02',
-    'modified': '2026-11-02',
+    'modified': '2026-11-13',
 }
 
-BODY = r'''    <p class="meta">Updated 2 November 2026. Every figure links to its source. <a href="/about/">How we check facts</a>.</p>
+BODY = r'''    <p class="meta">Updated 13 November 2026. Every figure links to its source. <a href="/about/">How we check facts</a>.</p>
     <p>Vale Street is a short residential street of terraced houses in Totterdown, on the hillside above Bristol Temple Meads. In 2019 it was reported as England's steepest residential street, and it's best known for an Easter egg-rolling race down the hill and, briefly, a Banksy.</p>
 
     <section class="summary" aria-label="Quick answer">
       <h2>Quick answer</h2>
       <ul>
-        <li><strong>Title:</strong> Ordnance Survey named Vale Street England's steepest street in 2019. [[vale_itv]] [[vale_secret]]</li>
+        <li><strong>Title:</strong> Ordnance Survey named Vale Street England's steepest street in 2019, which also makes it the steepest residential street in Bristol. [[vale_itv]] [[vale_secret]]</li>
         <li><strong>Gradient:</strong> an average of about 21.8%, according to Ordnance Survey figures reported by Bristol24/7. [[vale_cadbury]] Some reports describe it as 22 degrees, which would be far steeper; the percentage is the figure to use.</li>
-        <li><strong>Britain and the world:</strong> Ffordd Pen Llech in Harlech, Wales, is often cited as steeper, and Baldwin Street in Dunedin, New Zealand, holds the Guinness world record. [[ffordd]]</li>
+        <li><strong>UK, Britain and the world:</strong> Vale Street isn't the steepest in the UK. Ffordd Pen Llech in Harlech, Wales, is often cited as steeper, and Baldwin Street in Dunedin, New Zealand, holds the Guinness world record. [[ffordd]]</li>
         <li><strong>Egg rolling:</strong> residents race hard-boiled eggs down the street every Easter Sunday. [[egg_itv]] [[egg_b247]]</li>
         <li><strong>Banksy:</strong> his "Aachoo!!" mural appeared on a house on Vale Street in December 2020. It was lifted off by crane in March 2021, so you can't see it there any more. [[banksy_b247]] [[banksy_removed]]</li>
       </ul>
@@ -42,8 +42,8 @@ BODY = r'''    <p class="meta">Updated 2 November 2026. Every figure links to it
     <p>Ordnance Survey's figures, reported by Bristol24/7 in February 2026, give Vale Street an average gradient of 21.8%. [[vale_cadbury]] That means the road climbs about 22 metres for every 100 metres you travel along it. Dangerous Roads gives a maximum gradient of 25.6%. [[vale_roads]]</p>
     <p><strong>Percent or degrees?</strong> Several reports, including ITV's 2019 coverage, describe the street as about 22 degrees. [[vale_itv]] A 22% gradient is roughly 12 degrees; a 22-degree slope would be a gradient of about 40%, steeper than the world's steepest street. The percentage figure is the consistent one.</p>
 
-    <h2 id="compare">Is Vale Street the steepest street in Britain?</h2>
-    <p>No: the claim is for England. In Wales, Ffordd Pen Llech in Harlech was listed by Guinness World Records as the world's steepest street until 2020, when the title went back to Baldwin Street in Dunedin, New Zealand, after a change in how it was measured. [[ffordd]]</p>
+    <h2 id="compare">Is Vale Street the steepest street in the UK or Britain?</h2>
+    <p>No: the title is for England only. In Wales, Ffordd Pen Llech in Harlech was listed by Guinness World Records as the world's steepest street until 2020, when the title went back to Baldwin Street in Dunedin, New Zealand, after a change in how it was measured. [[ffordd]]</p>
     <div class="table-wrap"><table>
       <caption>Steep streets compared</caption>
       <thead><tr><th>Street</th><th>Where</th><th>Claim</th></tr></thead>

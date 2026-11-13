@@ -9,10 +9,10 @@ META = {
     'crumb': 'Living in Totterdown',
     'h1': 'Living in Totterdown',
     'published': '2026-11-02',
-    'modified': '2026-11-02',
+    'modified': '2026-11-13',
 }
 
-BODY = r'''    <p class="meta">Updated 2 November 2026. Every figure links to its source. Prices and ratings change, so check the source before you decide. <a href="/about/">How we check facts</a>.</p>
+BODY = r'''    <p class="meta">Updated 13 November 2026. Every figure links to its source. Prices and ratings change, so check the source before you decide. <a href="/about/">How we check facts</a>.</p>
     <p>Totterdown is a neighbourhood of Victorian terraces on a steep hill in south Bristol, mostly in the BS4 postcode with some streets in BS3, a short walk from Temple Meads station. This guide covers the practical side of living here.</p>
 
     <section class="summary" aria-label="Quick answer">
@@ -22,7 +22,7 @@ BODY = r'''    <p class="meta">Updated 2 November 2026. Every figure links to it
         <li><strong>Renting:</strong> example listings in 2026 asked about £1,100 a month for a one-bed flat and £1,500 for a two-bed; there's no published average for Totterdown. [[rent_1bed]] [[rent_2bed]]</li>
         <li><strong>Council ward:</strong> Totterdown is in Windmill Hill ward, home to an estimated 14,104 people in mid-2024. [[ward_wiki]] [[ward_2024]]</li>
         <li><strong>Getting about:</strong> Temple Meads station is at the foot of the hill, within walking distance. [[walk_temple]]</li>
-        <li><strong>Parking:</strong> a residents' parking scheme is proposed; the council's survey closes on 5 November 2026. <a href="/totterdown-parking-scheme/">Details</a></li>
+        <li><strong>Parking:</strong> a residents' parking scheme is proposed; the council's survey closed on 5 November 2026 and no decision has been published yet. <a href="/totterdown-parking-scheme/">Details</a></li>
         <li><strong>Clean Air Zone:</strong> Totterdown is outside Bristol's zone, which starts at the Three Lamps junction. [[caz_tresa]]</li>
       </ul>
     </section>
