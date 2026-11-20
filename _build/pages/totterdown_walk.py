@@ -15,10 +15,10 @@ META = {
     'crumb': 'Totterdown walk',
     'h1': 'A self-guided Totterdown walk',
     'published': '2026-11-02',
-    'modified': '2026-11-02',
+    'modified': '2026-11-20',
 }
 
-BODY = r'''    <p class="meta">Updated 2 November 2026. Totterdown is very steep, so wear good shoes and take your time. Most stops are on residential streets: keep noise down and don't block doors. <a href="/about/">How we check facts</a>.</p>
+BODY = r'''    <p class="meta">Updated 20 November 2026. Totterdown is very steep, so wear good shoes and take your time. Most stops are on residential streets: keep noise down and don't block doors. <a href="/about/">How we check facts</a>.</p>
     <p>These ten sights run roughly from the river at the bottom of the hill to the top, so you can link them into a walk from Temple Meads station. Each has a map link to help you plan your own route.</p>
 
     <section class="summary" aria-label="Quick answer">
@@ -50,7 +50,8 @@ BODY = r'''    <p class="meta">Updated 2 November 2026. Totterdown is very steep
       <li><strong>Arnos Vale Cemetery:</strong> a Victorian garden cemetery further along the Bath Road. [[arnos]] <a href="/parks-in-totterdown/#arnos">More</a>.</li>
       <li><strong>Religious buildings:</strong> TRESA's walk visits Totterdown's churches, chapels and mosque. [[relig_walk]]</li>
       <li><strong>The river:</strong> the Friends of the Avon New Cut publish circular walks along the New Cut. [[franc_walks]]</li>
-      <li><strong>On the arts trail weekend</strong> you can go inside artists' homes along the way: 14 and 15 November in 2026. [[tat_faq]] <a href="/totterdown-arts-trail/">Arts trail guide</a>.</li>
+      <li><strong>On the arts trail weekend</strong>, held each mid-November, you can go inside artists' homes along the way. [[tat_faq]] <a href="/totterdown-arts-trail/">Arts trail guide</a>.</li>
+      <li><strong>The colourful houses:</strong> see <a href="/totterdown-colourful-houses/">where to find the best views of the painted terraces</a>.</li>
     </ul>
 '''
 

@@ -9,20 +9,20 @@ META = {
     'crumb': 'Things to do',
     'h1': 'Things to do in Totterdown',
     'published': '2026-11-02',
-    'modified': '2026-11-02',
+    'modified': '2026-11-20',
 }
 
-BODY = r'''    <p class="meta">Updated 2 November 2026. Opening hours change, so check with each place before you go. <a href="/about/">How we check facts</a>.</p>
+BODY = r'''    <p class="meta">Updated 20 November 2026. Opening hours change, so check with each place before you go. <a href="/about/">How we check facts</a>.</p>
     <p>Totterdown is small enough to walk around in an afternoon, but steep enough that you'll feel it. Here's what's worth seeing, starting from Temple Meads station at the bottom of the hill.</p>
 
     <section class="summary" aria-label="Quick answer">
       <h2>Quick answer</h2>
       <ul>
-        <li><strong>See:</strong> the coloured terraces, including Richmond Street, and <a href="/vale-street/">Vale Street</a>, England's steepest residential street. [[richmond]] [[vale_itv]]</li>
+        <li><strong>See:</strong> the <a href="/totterdown-colourful-houses/">coloured terraces</a>, including Richmond Street, and <a href="/vale-street/">Vale Street</a>, England's steepest residential street. [[richmond]] [[vale_itv]]</li>
         <li><strong>Drink:</strong> the Thunderbolt, a former tollhouse, plus the Shakespeare and the Star &amp; Dove. [[turnpike]] [[camra_shakes]] [[camra_star]]</li>
         <li><strong>Eat:</strong> brunch at the Sundial Kitchen, a fry-up at Totterdown Canteen, pizza from Laura's or A Cappella, fish and chips at Farrows. [[sundial_brunch]] [[lauras]] [[vb_locals]]</li>
         <li><strong>Walk:</strong> Arnos Vale, a Victorian garden cemetery on the Bath Road, or up to Perrett's Park for one of Bristol's best skyline views. [[arnos]] [[perretts]]</li>
-        <li><strong>Time it:</strong> the <a href="/totterdown-arts-trail/">arts trail</a> on 14 and 15 November 2026, or the Vale Street egg roll on Easter Sunday. [[tat_faq]] [[egg_itv]]</li>
+        <li><strong>Time it:</strong> the <a href="/totterdown-arts-trail/">arts trail</a> in mid-November, or the Vale Street egg roll on Easter Sunday. [[tat_2025]] [[egg_itv]]</li>
       </ul>
     </section>
 
@@ -105,7 +105,7 @@ BODY = r'''    <p class="meta">Updated 2 November 2026. Opening hours change, so
       <tbody>
         <tr><td>Easter Sunday</td><td>Vale Street egg rolling [[egg_itv]]</td></tr>
         <tr><td>August</td><td>Balloon Fiesta mass ascents, best seen from Perrett's Park [[perretts]]</td></tr>
-        <tr><td>November</td><td>Totterdown Arts Trail, 14 and 15 November in 2026 [[tat_faq]]</td></tr>
+        <tr><td>November</td><td>Totterdown Arts Trail, on a mid-November weekend: 15 and 16 November in 2025, 14 and 15 November in 2026 [[tat_2025]] [[tat_faq]]</td></tr>
       </tbody>
     </table></div>
     <p>Month by month: <a href="/whats-on-in-totterdown/">what's on in Totterdown</a>.</p>

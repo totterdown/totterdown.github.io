@@ -9,10 +9,10 @@ META = {
     'crumb': 'Food and drink',
     'h1': 'Where to eat and drink in Totterdown',
     'published': '2026-11-02',
-    'modified': '2026-11-02',
+    'modified': '2026-11-20',
 }
 
-BODY = r'''    <p class="meta">Updated 2 November 2026. Places open, close and change their hours, so check before you go. Nobody pays to be included. Spotted somewhere missing or closed? Tell us through the <a href="/about/#contact">contact form</a>. <a href="/about/">How we check facts</a>.</p>
+BODY = r'''    <p class="meta">Updated 20 November 2026. Places open, close and change their hours, so check before you go. Nobody pays to be included. Spotted somewhere missing or closed? Tell us through the <a href="/about/#contact">contact form</a>. <a href="/about/">How we check facts</a>.</p>
     <p>Totterdown's food and drink is clustered in three places: the Wells Road, which climbs the hill from Three Lamps; Oxford Street, a smaller row of shops near the top; and a handful of corner pubs and cafés on the side streets in between.</p>
 
     <section class="summary" aria-label="Quick answer">
@@ -106,7 +106,7 @@ BODY = r'''    <p class="meta">Updated 2 November 2026. Places open, close and c
     </ul>
 
     <h2 id="arts-trail">Where to eat during the Totterdown Arts Trail</h2>
-    <p>Many local venues open specially or run pop-ups during the <a href="/totterdown-arts-trail/">arts trail weekend</a>, which is on 14 and 15 November in 2026. The organisers publish a food and drink list on their website, and the printed trail map is available in local businesses. [[tat_food]] [[tat_secret]]</p>
+    <p>Many local venues open specially or run pop-ups during the <a href="/totterdown-arts-trail/">arts trail weekend</a>, held in mid-November. The organisers publish a food and drink list on their website, and the printed trail map is available in local businesses. [[tat_food]] [[tat_secret]]</p>
 '''
 
 

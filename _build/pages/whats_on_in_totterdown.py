@@ -9,17 +9,17 @@ META = {
     'crumb': "What's on",
     'h1': "What's on in Totterdown",
     'published': '2026-11-02',
-    'modified': '2026-11-02',
+    'modified': '2026-11-20',
 }
 
-BODY = r'''    <p class="meta">Updated 2 November 2026. Community events are run by volunteers and dates change, so check with the organisers. Know of an event we've missed? Tell us through the <a href="/about/#contact">contact form</a>. <a href="/about/">How we check facts</a>.</p>
+BODY = r'''    <p class="meta">Updated 20 November 2026. Community events are run by volunteers and dates change, so check with the organisers. Know of an event we've missed? Tell us through the <a href="/about/#contact">contact form</a>. <a href="/about/">How we check facts</a>.</p>
     <p>Totterdown has a busy calendar for a small neighbourhood, much of it run by residents. The residents' association TRESA says there are events all year round. [[tresa_events]]</p>
 
     <section class="summary" aria-label="Quick answer">
       <h2>Quick answer</h2>
       <ul>
-        <li><strong>Next up:</strong> the Totterdown Arts Trail, Saturday 14 and Sunday 15 November 2026, free. [[tat_faq]] [[tat_home]]</li>
-        <li><strong>Spring:</strong> egg rolling down Vale Street on Easter Sunday; in 2027 that's 28 March. [[egg_itv]]</li>
+        <li><strong>Next up:</strong> egg rolling down Vale Street on Easter Sunday; in 2027 that's 28 March. [[egg_itv]]</li>
+        <li><strong>November:</strong> the Totterdown Arts Trail, free, on a mid-November weekend. The 2026 trail was on 14 and 15 November; 2027 dates haven't been announced. [[tat_faq]] [[tat_home]]</li>
         <li><strong>August:</strong> the Balloon Fiesta's mass ascents, seen from Perrett's Park. [[perretts]]</li>
         <li><strong>Every year:</strong> a garden festival and TRESA's Front Garden Awards. [[tresa_events]] [[tresa_gardens]]</li>
         <li><strong>Autumn:</strong> TRESA's community apple pressing, held in September 2025. [[tresa_events]]</li>
@@ -37,7 +37,7 @@ BODY = r'''    <p class="meta">Updated 2 November 2026. Community events are run
         <tr><td>Yearly</td><td>Community of Perrett's Park annual picnic, raising money for the park [[perretts]]</td></tr>
         <tr><td>August</td><td>Bristol International Balloon Fiesta: watch the mass ascents from Perrett's Park [[perretts]]</td></tr>
         <tr><td>September</td><td>Apple pressing at TRESA's community space on Park Street (21 September in 2025) [[tresa_events]] [[tresa_space]]</td></tr>
-        <tr><td>November</td><td><a href="/totterdown-arts-trail/">Totterdown Arts Trail</a>: 14 and 15 November in 2026 [[tat_faq]]</td></tr>
+        <tr><td>November</td><td><a href="/totterdown-arts-trail/">Totterdown Arts Trail</a>: 14 and 15 November in 2026; 2027 dates not yet announced [[tat_faq]]</td></tr>
         <tr><td>Through the year</td><td>TRESA public meetings on local issues, such as the meeting on 17 May 2026 about the Liveable Neighbourhood and parking [[tresa_may26]]</td></tr>
       </tbody>
     </table></div>

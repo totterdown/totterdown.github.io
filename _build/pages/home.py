@@ -40,7 +40,7 @@ def build(data):
     <p class="intro">Plain, sourced guides to the hillside neighbourhood above Temple Meads: what to see, where to eat, what's on, and what you need to know to live here.</p>
 
     <div class="news-list">
-      <a class="news" href="/totterdown-arts-trail/"><strong>Arts trail:</strong> 14 and 15 November 2026, free. Map, times and tips</a>
+      <a class="news" href="/totterdown-colourful-houses/"><strong>New guide:</strong> where to see Totterdown's colourful houses, and why they're painted</a>
       <a class="news" href="/totterdown-parking-scheme/"><strong>Residents' parking:</strong> the council's survey has closed. What was proposed and what's next</a>
     </div>
 
@@ -54,7 +54,7 @@ def build(data):
         <li>Vale Street, with an average gradient of about 21.8%, was named England's steepest residential street by Ordnance Survey in 2019, and was briefly home to Banksy's "Aachoo!!" mural. <a href="/vale-street/">Vale Street</a></li>
         <li>More than 500 homes and businesses were demolished from about 1968 for a ring road that was never built. <a href="/totterdown-history/#road">The lost road</a></li>
         <li>Homes sold for an average of £374,399 in the year to early 2026. <a href="/living-in-totterdown/#prices">House prices</a></li>
-        <li>The Totterdown Arts Trail, held since 2001, returns on 14 and 15 November 2026. <a href="/totterdown-arts-trail/">Arts trail</a></li>
+        <li>The Totterdown Arts Trail has opened local homes to visitors every November since 2001. <a href="/totterdown-arts-trail/">Arts trail</a></li>
       </ul>
       <p>Each figure is sourced on the linked guide. This site is about Totterdown in Bristol; Totterdown Fields in Tooting, London, is a different place.</p>
     </section>

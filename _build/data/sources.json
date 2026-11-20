@@ -53,6 +53,15 @@
    ]
   ]
  },
+ "b247_view": {
+  "label": "Red billboards appear with demand to save this view, Bristol24/7",
+  "links": [
+   [
+    "bristol247.com",
+    "https://www.bristol247.com/news-and-features/news/red-billboards-appear-with-demand-to-save-this-view"
+   ]
+  ]
+ },
  "b365": {
   "label": "Bristol neighbourhood guide: Totterdown, 365Bristol",
   "links": [
@@ -68,6 +77,15 @@
    [
     "foodhygieneratings.org.uk",
     "https://www.foodhygieneratings.org.uk/the-bakehouse-bristol"
+   ]
+  ]
+ },
+ "baldwin_wiki": {
+  "label": "Baldwin Street, Wikipedia",
+  "links": [
+   [
+    "wikipedia.org",
+    "https://en.wikipedia.org/wiki/Baldwin_Street"
    ]
   ]
  },
@@ -212,6 +230,15 @@
    [
     "thebristolcable.org",
     "https://thebristolcable.org/2017/05/community-razed-ground-road-never-built/"
+   ]
+  ]
+ },
+ "cable_view": {
+  "label": "'Save our view', say Totterdown residents, The Bristol Cable, February 2022",
+  "links": [
+   [
+    "thebristolcable.org",
+    "https://thebristolcable.org/2022/02/save-our-view-say-totterdown-residents/"
    ]
   ]
  },
@@ -422,6 +449,15 @@
    ]
   ]
  },
+ "gosw": {
+  "label": "Why are there so many multicoloured houses in Bristol?, Go South West England",
+  "links": [
+   [
+    "gosouthwestengland.co.uk",
+    "https://gosouthwestengland.co.uk/multicoloured-houses-bristol/"
+   ]
+  ]
+ },
  "gp_priory": {
   "label": "Priory Surgery, 326 Wells Road, All Health and Care",
   "links": [
@@ -437,6 +473,15 @@
    [
     "nhs.uk",
     "https://www.nhs.uk/services/gp-surgery/wells-road-surgery/L81125"
+   ]
+  ]
+ },
+ "guinness": {
+  "label": "Steepest street (road), Guinness World Records",
+  "links": [
+   [
+    "guinnessworldrecords.com",
+    "https://guinnessworldrecords.com/world-records/62907-steepest-street-road"
    ]
   ]
  },
@@ -522,6 +567,15 @@
    [
     "38degrees.org.uk",
     "https://you.38degrees.org.uk/petitions/victoria-park-water-maze-needs-water"
+   ]
+  ]
+ },
+ "mikes_walk": {
+  "label": "Walk eight: Bedminster, Totterdown and Arno's Vale, Mike's Bristol Walks",
+  "links": [
+   [
+    "mikesbristolwalks.com",
+    "https://mikesbristolwalks.com/walks/walk-eight-bedminster-totterdown-and-arnos-vale/"
    ]
   ]
  },
@@ -893,6 +947,15 @@
    ]
   ]
  },
+ "tat_2025": {
+  "label": "Totterdown Arts Trail, Saturday 15 November 2025, Headfirst Bristol",
+  "links": [
+   [
+    "headfirstbristol.co.uk",
+    "https://www.headfirstbristol.co.uk/whats-on/totterdown/sat-15-nov-totterdown-arts-trail-139080"
+   ]
+  ]
+ },
  "tat_25": {
   "label": "Totterdown Arts Trail celebrates 25 years, Bristol24/7, 2025",
   "links": [
@@ -989,6 +1052,15 @@
    [
     "bristol247.com",
     "https://www.bristol247.com/food-and-drink/news-food-and-drink/historic-pub-venue-sale"
+   ]
+  ]
+ },
+ "timeout_colour": {
+  "label": "The most colourful place in Britain, Time Out",
+  "links": [
+   [
+    "timeout.com",
+    "https://www.timeout.com/uk/news/the-most-colourful-place-in-britain-072925"
    ]
   ]
  },
@@ -1250,6 +1322,15 @@
    [
     "wikipedia.org",
     "https://en.wikipedia.org/wiki/Totterdown"
+   ]
+  ]
+ },
+ "windsor": {
+  "label": "Windsor Terrace, Totterdown, BS3: house for sale listing, Rightmove",
+  "links": [
+   [
+    "rightmove.co.uk",
+    "https://www.rightmove.co.uk/properties/168788417"
    ]
   ]
  }
