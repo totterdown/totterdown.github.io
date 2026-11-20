@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 320" width="640" height="320" role="img" aria-labelledby="t d">
+  <title id="t">How steep is Vale Street? Drawn to scale</title>
+  <desc id="d">Along 100 metres of Vale Street in Totterdown, Bristol, the road climbs 21.8 metres on average (about 12 degrees) and 25.6 metres at its steepest (about 14 degrees).</desc>
+  <rect width="640" height="320" fill="#fffdf9"/>
+  <g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif" fill="#1d2433">
+    <text x="32" y="40" font-size="22" font-weight="700">How steep is Vale Street?</text>
+    <text x="32" y="64" font-size="14" fill="#5e6676">Drawn to scale: how far the road climbs over 100 m along the street</text>
+    <polygon points="60,260 560,260 560,151" fill="#e76f51" fill-opacity=".22"/>
+    <line x1="60" y1="260" x2="560" y2="151" stroke="#b23a12" stroke-width="4" stroke-linecap="round"/>
+    <line x1="60" y1="260" x2="560" y2="132" stroke="#1d2433" stroke-width="2" stroke-dasharray="7 5"/>
+    <line x1="60" y1="260" x2="560" y2="260" stroke="#1d2433" stroke-width="2"/>
+    <line x1="560" y1="260" x2="560" y2="132" stroke="#5e6676" stroke-width="1.5"/>
+    <path d="M120 260 A60 60 0 0 0 118.6 247.2" fill="none" stroke="#1d2433" stroke-width="1.5"/>
+    <text x="150" y="256" font-size="13">≈12°</text>
+    <text x="552" y="122" font-size="14" text-anchor="end">25.6 m at its steepest (≈14°)</text>
+    <text x="552" y="216" font-size="14" font-weight="700" fill="#8f2c0b" text-anchor="end">21.8 m on average (≈12°)</text>
+    <text x="310" y="284" font-size="14" text-anchor="middle">100 m along the street</text>
+    <text x="32" y="308" font-size="11" fill="#5e6676">Sources: Ordnance Survey via Bristol24/7 (average); Dangerous Roads (maximum). CC BY 4.0 Totterdown.com</text>
+  </g>
+</svg>

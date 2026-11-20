@@ -1,5 +1,5 @@
 """Vale Street, Totterdown: England's steepest residential street."""
-from lib import page
+from lib import page, SITE
 
 META = {
     'slug': 'vale-street',
@@ -9,6 +9,9 @@ META = {
     'crumb': 'Vale Street',
     'h1': "Vale Street: England's steepest residential street",
     'published': '2026-11-02',
+    'about': {'@type': 'Place', 'name': 'Vale Street', 'containedInPlace': {'@id': f'{SITE}/#totterdown'},
+              'description': "England's steepest residential street, according to Ordnance Survey (2019)"},
+    'images': ['/img/vale-street-gradient.svg'],
     'modified': '2026-11-20',
 }
 
@@ -40,6 +43,10 @@ BODY = r'''    <p class="meta">Updated 20 November 2026. Every figure links to i
 
     <h2 id="how-steep">How steep is Vale Street?</h2>
     <p>Ordnance Survey's figures, reported by Bristol24/7 in February 2026, give Vale Street an average gradient of 21.8%. [[vale_cadbury]] That means the road climbs about 22 metres for every 100 metres you travel along it. Dangerous Roads gives a maximum gradient of 25.6%. [[vale_roads]]</p>
+    <figure class="diagram">
+      <img src="/img/vale-street-gradient.svg" width="640" height="320" loading="lazy" alt="Diagram drawn to scale: along 100 metres of Vale Street the road climbs 21.8 metres on average, about 12 degrees, and 25.6 metres at its steepest, about 14 degrees.">
+      <figcaption>Vale Street's gradient, drawn to scale. Average from Ordnance Survey figures reported by Bristol24/7; maximum from Dangerous Roads. [[vale_cadbury]] [[vale_roads]] Free to reuse under CC BY 4.0 with a credit to Totterdown.com (<a href="/about/#reuse">details</a>).</figcaption>
+    </figure>
     <p><strong>Percent or degrees?</strong> Several reports, including ITV's 2019 coverage, describe the street as about 22 degrees. [[vale_itv]] A 22% gradient is roughly 12 degrees; a 22-degree slope would be a gradient of about 40%, steeper than the world's steepest street. The percentage figure is the consistent one.</p>
 
     <h2 id="compare">Is Vale Street the steepest street in the UK or Britain?</h2>
@@ -71,6 +78,7 @@ BODY = r'''    <p class="meta">Updated 20 November 2026. Every figure links to i
     </ul>
 
     <h2 id="living">What is it like to live on Vale Street?</h2>
+    <p class="answer">Living on Vale Street means living with the slope: residents park their cars sideways across the hill so they don't roll away. [[vale_park]]</p>
     <ul>
       <li><strong>Parking:</strong> residents park their cars sideways, across the slope, so they don't roll away. [[vale_park]]</li>
       <li><strong>On screen:</strong> in February 2026 a Cadbury advert was filmed on the street, with a temporary Cadbury shopfront built for the shoot. [[vale_cadbury]]</li>

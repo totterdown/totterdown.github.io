@@ -39,6 +39,7 @@ BODY = r'''    <p class="meta">Updated 20 November 2026. Places open, close and 
     </nav>
 
     <h2 id="pubs">What are the best pubs in Totterdown?</h2>
+    <p class="answer">Totterdown's best-known pubs are the Oxford on Oxford Street, the Shakespeare on Henry Street, the Star &amp; Dove on St Luke's Road, the New Found Out on Green Street and the Thunderbolt on the Bath Road, each recommended by locals for something different, from Sunday roasts to live music. [[vb_locals]]</p>
     <div class="table-wrap"><table>
       <caption>Totterdown pubs</caption>
       <thead><tr><th>Pub</th><th>Known for</th></tr></thead>
@@ -53,6 +54,7 @@ BODY = r'''    <p class="meta">Updated 20 November 2026. Places open, close and 
     <p><strong>Is the Thunderbolt closing?</strong> The freehold has been put up for sale after 18 years under the same landlord, but Bristol24/7 reported it would keep trading and hosting live events until a sale completes. [[thunder_sale]]</p>
 
     <h2 id="bars">Where can you get local beer, wine or a cocktail?</h2>
+    <p class="answer">For local beer, Totterdown has its own brewpub, Bruhaha, at 156–158 Wells Road; for wine there's Carouse on Oxford Street, and for cocktails BANK and Smokebox on the Wells Road. [[bruhaha_b247]] [[carouse]] [[bank_b247]] [[smokebox]]</p>
     <ul>
       <li><strong>Bruhaha, 156–158 Wells Road:</strong> a brewpub that started as a home brewery in 2019 and opened here in October 2023. [[bruhaha_b247]] Its beers include Three Lamps, an IPA, TotterDowner, a bitter, and Rusty Robot, a porter. [[bruhaha_camra]]</li>
       <li><strong>Carouse, 32 Oxford Street:</strong> a wine shop and bar with more than 200 wines and simple food, opened in 2025 in the former Little Kitchen Cookery School. [[carouse]] [[carouse_inf]]</li>
@@ -61,6 +63,7 @@ BODY = r'''    <p class="meta">Updated 20 November 2026. Places open, close and 
     </ul>
 
     <h2 id="cafes">Where are the best cafés in Totterdown?</h2>
+    <p class="answer">The best-known cafés in Totterdown are the Sundial Kitchen on William Street, a small vegetarian brunch spot, and Totterdown Canteen on the Wells Road, a traditional café for a fry-up. [[sundial_brunch]] [[vb_locals]]</p>
     <div class="table-wrap"><table>
       <caption>Cafés, brunch and bakeries</caption>
       <thead><tr><th>Café</th><th>Why go</th></tr></thead>
@@ -74,6 +77,7 @@ BODY = r'''    <p class="meta">Updated 20 November 2026. Places open, close and 
     </table></div>
 
     <h2 id="dinner">Where can you eat dinner in Totterdown?</h2>
+    <p class="answer">For dinner in Totterdown the choice is pizza from Laura's Pizzas, A Cappella or Florence, fish and chips at the award-winning Farrows, the Truffled of Totterdown supper club, smoked barbecue at Smokebox, Indian food at Al Waha or a Chinese takeaway from Asia Garden. [[lauras]] [[vb_locals]] [[florence_review]] [[farrows]] [[truffled]]</p>
     <div class="table-wrap"><table>
       <caption>Restaurants and takeaways</caption>
       <thead><tr><th>Place</th><th>Food</th></tr></thead>
@@ -100,6 +104,7 @@ BODY = r'''    <p class="meta">Updated 20 November 2026. Places open, close and 
     <p>Addresses are from the sources in each table above.</p>
 
     <h2 id="families">Where can you eat with children in Totterdown?</h2>
+    <p class="answer">With young children in Totterdown, try Tots &amp; Teapots, a play café on the Wells Road, or the café at Windmill Hill City Farm, which is free to enter. [[tots]] [[farm_visit]]</p>
     <ul>
       <li><strong>Tots &amp; Teapots, Wells Road:</strong> a play café with sessions for young children, food and party bookings. [[tots]]</li>
       <li><strong>Windmill Hill City Farm:</strong> a short walk away, with a café open every day and free entry to the farm. [[farm_contact]] [[farm_visit]] See <a href="/parks-in-totterdown/#farm">parks and green spaces</a>.</li>

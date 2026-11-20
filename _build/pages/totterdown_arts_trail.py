@@ -41,6 +41,7 @@ BODY = r'''    <p class="meta">Updated 20 November 2026, after the 2026 trail. D
     </nav>
 
     <h2 id="when">When is the Totterdown Arts Trail?</h2>
+    <p class="answer">The Totterdown Arts Trail is held on a weekend in mid-November; the 2026 trail was on 14 and 15 November, and 2027 dates haven't been announced. [[tat_faq]] [[tat_2025]]</p>
     <div class="table-wrap"><table>
       <caption>Recent and next Totterdown Arts Trails</caption>
       <thead><tr><th>Year</th><th>Dates</th><th>Opening hours</th></tr></thead>
@@ -53,6 +54,7 @@ BODY = r'''    <p class="meta">Updated 20 November 2026, after the 2026 trail. D
     <p>The dates move each year, but recent trails have all been in mid-November. We'll update this page when the organisers announce 2027; their website and social media are the first place it appears. [[tat_home]]</p>
 
     <h2 id="how">How does the Totterdown Arts Trail work?</h2>
+    <p class="answer">The Totterdown Arts Trail is a free weekend when artists open their homes and community venues to visitors, who walk from house to house using a printed or online map. [[tat_creatives]] [[tat_home]] [[tat_venues]]</p>
     <ul>
       <li><strong>Front rooms:</strong> artists show their work in local homes and community venues, so you walk from house to house. [[tat_creatives]]</li>
       <li><strong>Free:</strong> there's no ticket or entry fee. [[tat_home]]</li>
@@ -61,6 +63,7 @@ BODY = r'''    <p class="meta">Updated 20 November 2026, after the 2026 trail. D
     </ul>
 
     <h2 id="find">How do you find the Totterdown Arts Trail venues?</h2>
+    <p class="answer">To find Totterdown Arts Trail venues, use the organisers' live or PDF map or the printed booklet, or look for orange flags with a duck mascot outside venues. [[tat_venues]] [[tat_home]] [[tat_secret]]</p>
     <ul>
       <li><strong>Online:</strong> the organisers' site has a live map, where you zoom in to find individual venues, and a PDF map showing all locations. [[tat_venues]]</li>
       <li><strong>On paper:</strong> printed booklets and maps are available at local businesses and houses. The printed map marks toilets and good places for children. [[tat_home]] [[tat_faq]]</li>
@@ -68,6 +71,7 @@ BODY = r'''    <p class="meta">Updated 20 November 2026, after the 2026 trail. D
     </ul>
 
     <h2 id="access">Is the Totterdown Arts Trail suitable for children and wheelchairs?</h2>
+    <p class="answer">Children are welcome on the Totterdown Arts Trail, which has activities for all ages, but it isn't step-free throughout: the streets are very steep and many venues are private homes that may have stairs. [[tat_home]] [[tat_faq]]</p>
     <ul>
       <li><strong>Hills:</strong> Totterdown is very steep. The organisers' FAQ suggests coming prepared with sensible walking shoes. [[tat_faq]]</li>
       <li><strong>Private homes:</strong> many venues are people's houses, which may have stairs or other limits. [[tat_faq]] We couldn't find an official access guide, so if you need step-free routes, check each venue on the map or ask the organisers through their website. [[tat_home]]</li>

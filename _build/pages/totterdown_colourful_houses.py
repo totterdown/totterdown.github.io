@@ -38,6 +38,7 @@ BODY = r'''    <p class="meta">Updated 20 November 2026. Every claim links to it
     </nav>
 
     <h2 id="where">Which streets in Totterdown have colourful houses?</h2>
+    <p class="answer">Totterdown's best-known colourful street is Richmond Street, the "rainbow row" of more than 70 houses, most of them painted; painted terraces also line Sydenham Road and Henry Street. [[richmond]] [[mikes_walk]]</p>
     <div class="table-wrap"><table>
       <caption>Streets to look for</caption>
       <thead><tr><th>Street</th><th>What to see</th></tr></thead>
@@ -52,6 +53,7 @@ BODY = r'''    <p class="meta">Updated 20 November 2026. Every claim links to it
     <p>You can link several of these into <a href="/totterdown-walk/">a self-guided walk</a>.</p>
 
     <h2 id="views">Where is the best place to see Totterdown's colourful houses?</h2>
+    <p class="answer">The best place to see Totterdown's colourful houses is from below, on Clarence Road beside the Avon New Cut, which looks up at the Richmond Street terrace; the hillside is also visible from Temple Meads station. [[mikes_walk]] [[colour_secret]]</p>
     <ul>
       <li><strong>From below, on Clarence Road:</strong> a walking guide says Clarence Road, beside the Avon New Cut, gives the best view of the Richmond Street terrace on the hill behind. [[mikes_walk]] [[newcut]]</li>
       <li><strong>From Temple Meads:</strong> the hillside is visible from the station and its approach, which is why residents care about the view. [[cable_view]] [[colour_secret]]</li>

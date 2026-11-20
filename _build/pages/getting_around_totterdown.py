@@ -9,10 +9,10 @@ META = {
     'crumb': 'Getting around',
     'h1': 'Getting to and around Totterdown',
     'published': '2026-11-02',
-    'modified': '2026-11-02',
+    'modified': '2026-11-20',
 }
 
-BODY = r'''    <p class="meta">Updated 2 November 2026. Bus routes and timetables change, so check the operator before you travel. <a href="/about/">How we check facts</a>.</p>
+BODY = r'''    <p class="meta">Updated 20 November 2026. Bus routes and timetables change, so check the operator before you travel. <a href="/about/">How we check facts</a>.</p>
     <p>Totterdown sits on the hill directly above Bristol Temple Meads, so most visitors arrive on foot from the station. Two main roads frame it: the A4 Bath Road along the bottom of the hill and the A37 Wells Road climbing up it, meeting at Three Lamps. [[three_lamps]]</p>
 
     <section class="summary" aria-label="Quick answer">
@@ -36,12 +36,14 @@ BODY = r'''    <p class="meta">Updated 2 November 2026. Bus routes and timetable
     </nav>
 
     <h2 id="train">How do you get to Totterdown from Temple Meads?</h2>
+    <p class="answer">To get to Totterdown from Bristol Temple Meads, walk up the hill from the station: Totterdown sits directly above it, and Visit Bristol's walking route crosses the New Cut and climbs into its streets. [[walk_temple]]</p>
     <ul>
       <li><strong>On foot:</strong> Temple Meads is at the foot of the hill. Visit Bristol's walking route from the station crosses the New Cut and climbs through Totterdown's streets. [[walk_temple]] Expect steep hills; <a href="/vale-street/">Vale Street</a> has an average gradient of about 21.8%. [[vale_cadbury]]</li>
       <li><strong>New entrances:</strong> Temple Meads' new Eastern Entrance has opened. [[nr_regen]] A Southern Gateway, with a new pedestrian route into the station over the River Avon, received planning permission in January 2026. [[southern_gateway]] [[sg_weca]] [[sg_permission]] We haven't seen an opening date.</li>
     </ul>
 
     <h2 id="bus">Which buses go to Totterdown?</h2>
+    <p class="answer">Buses serve Totterdown on both its main roads: the local 512 runs to the city centre via Windmill Hill, Bedminster and Redcliffe, the 376a uses the Wells Road, and First routes including the 1, 39 and 43 run along the Bath Road. [[bus512]] [[bus_376a]] [[bus_bathroad]]</p>
     <div class="table-wrap"><table>
       <caption>Buses serving Totterdown</caption>
       <thead><tr><th>Road</th><th>Services</th></tr></thead>
@@ -54,6 +56,7 @@ BODY = r'''    <p class="meta">Updated 2 November 2026. Bus routes and timetable
     <p>For every service and stop, see bustimes.org's page for Totterdown, or the First Bus app for live times. [[bus_localities]]</p>
 
     <h2 id="bike">Can you cycle or walk from Totterdown into the city?</h2>
+    <p class="answer">Yes: from Totterdown you can walk or cycle into central Bristol along the Avon New Cut, where the brick-surfaced Chocolate Path on the north bank leads towards the Harbourside. [[newcut]]</p>
     <ul>
       <li><strong>The New Cut:</strong> the Avon New Cut runs from Totterdown towards Cumberland Basin. On its north bank, the brick-surfaced Chocolate Path is a walking and cycling route towards the Harbourside. [[newcut]]</li>
       <li><strong>Circular walks:</strong> the Friends of the Avon New Cut publish circular walks along the river. [[franc_walks]]</li>
@@ -61,9 +64,10 @@ BODY = r'''    <p class="meta">Updated 2 November 2026. Bus routes and timetable
     </ul>
 
     <h2 id="car">What should drivers know about Totterdown?</h2>
+    <p class="answer">Drivers should know that Totterdown is just outside Bristol's Clean Air Zone, which starts at the Three Lamps junction, that it has no residents' parking scheme yet, and that some streets are steep enough for residents to park sideways. [[caz_tresa]] [[rps_consult]] [[vale_park]]</p>
     <ul>
       <li><strong>Clean Air Zone:</strong> the zone's boundary starts at the Three Lamps junction, so you can drive in on the Bath Road and turn onto the Wells Road without entering it. [[caz_tresa]] Non-compliant private cars pay £9 a day inside the zone; fully electric vehicles don't pay. [[caz_council]]</li>
-      <li><strong>Parking:</strong> on-street parking is tight, and the council is consulting on a Totterdown residents' parking scheme. [[rps_consult]] <a href="/totterdown-parking-scheme/">What's proposed</a>.</li>
+      <li><strong>Parking:</strong> Totterdown has no residents' parking scheme yet. The council consulted on one in autumn 2026; the survey closed on 5 November and no decision has been published. [[rps_consult]] <a href="/totterdown-parking-scheme/">What's proposed</a>.</li>
       <li><strong>Hills:</strong> on Vale Street residents park sideways across the slope. [[vale_park]]</li>
       <li><strong>Roadworks:</strong> First Bus warned of a Bath Road closure in Totterdown from 25 April 2026; check for current closures before you drive. [[bus_bathroad]]</li>
     </ul>

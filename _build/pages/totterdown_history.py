@@ -9,10 +9,10 @@ META = {
     'crumb': 'Totterdown history',
     'h1': 'A short history of Totterdown',
     'published': '2026-11-02',
-    'modified': '2026-11-02',
+    'modified': '2026-11-20',
 }
 
-BODY = r'''    <p class="meta">Updated 2 November 2026. Every date links to its source. Where sources disagree, we say so. <a href="/about/">How we check facts</a>.</p>
+BODY = r'''    <p class="meta">Updated 20 November 2026. Every date links to its source. Where sources disagree, we say so. <a href="/about/">How we check facts</a>.</p>
     <p>Totterdown is a hillside neighbourhood in south Bristol, above the River Avon and Temple Meads station. Most of it was built in the Victorian era, and much of its middle was knocked down in the 1970s for a road that never came.</p>
 
     <section class="summary" aria-label="Quick answer">
@@ -44,6 +44,7 @@ BODY = r'''    <p class="meta">Updated 2 November 2026. Every date links to its 
     <p>The Knowle &amp; Totterdown Local History Society says the hilly area was developed in late Victorian times to house railway workers from nearby Temple Meads. [[khs]] The Victorian terraces that survive, many now painted in bright colours, are what most visitors come to see. [[richmond]]</p>
 
     <h2 id="landmarks">What are Totterdown's historic landmarks?</h2>
+    <p class="answer">Totterdown's historic landmarks are the Grade II* listed Three Lamps signpost, the Thunderbolt pub in a former turnpike tollhouse from about 1840, and Totterdown Bridge, built in 1888. [[three_lamps]] [[turnpike]] [[bridge]]</p>
     <ul>
       <li><strong>Three Lamps signpost:</strong> a cast-iron column with two finger posts, one pointing to Bath and one to Wells, at the junction of the A4 Bath Road and the A37 Wells Road. It was listed on 8 January 1959 and is now Grade II*. It was restored around 1985 with three glass lamps. [[three_lamps]]</li>
       <li><strong>The Thunderbolt:</strong> the pub at 124 Bath Road is a former turnpike tollhouse from about 1840, listed Grade II on 4 March 1977 under its old name, the Turnpike. [[turnpike]]</li>

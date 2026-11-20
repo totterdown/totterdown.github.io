@@ -9,10 +9,10 @@ META = {
     'crumb': 'Living in Totterdown',
     'h1': 'Living in Totterdown',
     'published': '2026-11-02',
-    'modified': '2026-11-13',
+    'modified': '2026-11-20',
 }
 
-BODY = r'''    <p class="meta">Updated 13 November 2026. Every figure links to its source. Prices and ratings change, so check the source before you decide. <a href="/about/">How we check facts</a>.</p>
+BODY = r'''    <p class="meta">Updated 20 November 2026. Every figure links to its source. Prices and ratings change, so check the source before you decide. <a href="/about/">How we check facts</a>.</p>
     <p>Totterdown is a neighbourhood of Victorian terraces on a steep hill in south Bristol, mostly in the BS4 postcode with some streets in BS3, a short walk from Temple Meads station. This guide covers the practical side of living here.</p>
 
     <section class="summary" aria-label="Quick answer">
@@ -44,6 +44,7 @@ BODY = r'''    <p class="meta">Updated 13 November 2026. Every figure links to i
     </nav>
 
     <h2 id="prices">How much are houses in Totterdown?</h2>
+    <p class="answer">Homes in Totterdown sold for an average of £374,399 in the 12 months to February 2026, 5% more than the year before, according to Rightmove's figures from HM Land Registry sales. [[rightmove]]</p>
     <div class="table-wrap"><table>
       <caption>Average sold prices in Totterdown, Rightmove (HM Land Registry data), February 2026</caption>
       <thead><tr><th>Measure</th><th>Figure</th></tr></thead>
@@ -59,6 +60,7 @@ BODY = r'''    <p class="meta">Updated 13 November 2026. Every figure links to i
     <p>No organisation publishes an average rent for Totterdown alone. As examples, a one-bed flat was listed at £1,100 a month and a two-bed flat at £1,500 a month in 2026. [[rent_1bed]] [[rent_2bed]] Compare several current listings before you agree a rent.</p>
 
     <h2 id="area">Where is Totterdown, and which ward is it in?</h2>
+    <p class="answer">Totterdown is in south Bristol, on the hill south of the River Avon above Temple Meads station, and it is part of the city council's Windmill Hill ward. [[where_tresa]] [[ward_wiki]]</p>
     <ul>
       <li><strong>Location:</strong> south of the River Avon, above Temple Meads, where the A4 Bath Road and the A37 Wells Road split at Three Lamps. [[three_lamps]]</li>
       <li><strong>Postcodes and boundary:</strong> Totterdown has no official boundary. The residents' association TRESA notes that postcode, ward and parish boundaries all differ, and addresses fall in both BS3 and BS4. [[where_tresa]]</li>
@@ -67,6 +69,7 @@ BODY = r'''    <p class="meta">Updated 13 November 2026. Every figure links to i
     </ul>
 
     <h2 id="services">Where are the nearest GPs and libraries?</h2>
+    <p class="answer">GP surgeries near Totterdown include Wells Road Surgery and Priory Surgery, both on the Wells Road in Knowle, and the closest libraries are in Knowle, Bedminster and Brislington. [[gp_wells]] [[gp_priory]] [[lib_knowle]] [[lib_bedminster]] [[lib_wick]]</p>
     <div class="table-wrap"><table>
       <caption>Local services near Totterdown</caption>
       <thead><tr><th>Service</th><th>Where</th></tr></thead>
@@ -85,6 +88,7 @@ BODY = r'''    <p class="meta">Updated 13 November 2026. Every figure links to i
     <p>Hillcrest Primary School on Cemetery Road is Totterdown's own primary school, rated Good at its January 2022 inspection. [[hillcrest]] There's no secondary school in Totterdown. See <a href="/schools-in-totterdown/">schools in and near Totterdown</a> for primary and secondary options and how places are given.</p>
 
     <h2 id="transport">How do you get around from Totterdown?</h2>
+    <p class="answer">Totterdown is easy to get around without a car: Temple Meads station is at the bottom of the hill and the 512 bus runs to the city centre, though many streets are very steep. [[walk_temple]] [[bus512]]</p>
     <ul>
       <li><strong>Train:</strong> Bristol Temple Meads is at the bottom of the hill. Visit Bristol's walking route from the station runs through Totterdown's colourful streets and over the New Cut. [[walk_temple]]</li>
       <li><strong>Bus:</strong> the 512 runs from Totterdown via Windmill Hill, Bedminster and Redcliffe to the city centre. Check the current timetable before you travel. [[bus512]]</li>
@@ -104,8 +108,9 @@ BODY = r'''    <p class="meta">Updated 13 November 2026. Every figure links to i
     </ul>
 
     <h2 id="changes">What is changing near Totterdown?</h2>
+    <p class="answer">The main changes near Totterdown are a proposed residents' parking scheme, street changes under the South Bristol Liveable Neighbourhood due from late 2026, and the approved £350m Temple Island development below the hill. [[rps_consult]] [[sbln_about]] [[temple_island]]</p>
     <ul>
-      <li><strong>Residents' parking and Liveable Neighbourhood:</strong> both are being consulted on or designed now. <a href="/totterdown-parking-scheme/">Read the guide</a>.</li>
+      <li><strong>Residents' parking and Liveable Neighbourhood:</strong> the council's parking survey closed on 5 November 2026, and Liveable Neighbourhood street changes are due to start from late 2026. [[rps_consult]] [[sbln_about]] <a href="/totterdown-parking-scheme/">Read the guide</a>.</li>
       <li><strong>Temple Island:</strong> Bristol City Council approved Legal &amp; General's £350m Temple Island scheme, with 520 homes, offices, a hotel and shops, in April 2026. [[temple_island]] Objectors argued the towers would block views of Totterdown's coloured houses from the city. [[temple_views]]</li>
     </ul>
 

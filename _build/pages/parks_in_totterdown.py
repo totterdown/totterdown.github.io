@@ -9,10 +9,10 @@ META = {
     'crumb': 'Parks and green spaces',
     'h1': 'Parks and green spaces near Totterdown',
     'published': '2026-11-02',
-    'modified': '2026-11-02',
+    'modified': '2026-11-20',
 }
 
-BODY = r'''    <p class="meta">Updated 2 November 2026. Opening times change, so check before you visit. <a href="/about/">How we check facts</a>.</p>
+BODY = r'''    <p class="meta">Updated 20 November 2026. Opening times change, so check before you visit. <a href="/about/">How we check facts</a>.</p>
     <p>Totterdown's own streets are tightly packed terraces, but some of south Bristol's best green spaces are within a short walk, several of them with views back across the city.</p>
 
     <section class="summary" aria-label="Quick answer">
@@ -38,12 +38,14 @@ BODY = r'''    <p class="meta">Updated 2 November 2026. Opening times change, so
     </nav>
 
     <h2 id="perretts">Why is Perrett's Park worth visiting?</h2>
+    <p class="answer">Perrett's Park is worth visiting for its view: its slopes, on the edge of Totterdown, Windmill Hill and Knowle, look out over Bristol and are a popular place to watch the Balloon Fiesta's mass ascents in August. [[perretts]]</p>
     <ul>
       <li><strong>The view:</strong> on the edge of Totterdown, Windmill Hill and Knowle, its slopes look out over the city, and it's a popular place to watch the Bristol International Balloon Fiesta's mass ascents in August. [[perretts]]</li>
       <li><strong>Looked after locally:</strong> a community group, the Community of Perrett's Park, holds an annual picnic to raise money for the park. [[perretts]]</li>
     </ul>
 
     <h2 id="victoria">What is the water maze in Victoria Park?</h2>
+    <p class="answer">The water maze in Victoria Park is a circular brick channel built in 1984, its pattern copied from a carved roof boss in St Mary Redcliffe church; a local petition says no water has run through it for years. [[vicpark]] [[maze_petition]]</p>
     <ul>
       <li><strong>The park:</strong> Victoria Park, next to Totterdown in Windmill Hill, was laid out in the 1880s and has views over Totterdown and central Bristol. [[vicpark_pg]] [[vb_windmill]]</li>
       <li><strong>The water maze:</strong> built in 1984, its pattern copies a carved roof boss in St Mary Redcliffe church, and it sits on the line of an old pipe that carried spring water from Knowle to Redcliffe. [[vicpark]]</li>
@@ -60,6 +62,7 @@ BODY = r'''    <p class="meta">Updated 2 November 2026. Opening times change, so
     <p>The Avon New Cut runs from Totterdown towards Cumberland Basin, with the brick-paved Chocolate Path on its north bank. [[newcut]] The Friends of the Avon New Cut publish circular walks around it. [[franc_walks]]</p>
 
     <h2 id="community">Where are Totterdown's community gardens?</h2>
+    <p class="answer">In Totterdown, the residents' association TRESA runs a community space on Park Street, where it holds events such as apple pressing, and it gives out yearly Front Garden Awards. [[tresa_space]] [[tresa_events]] [[tresa_gardens]]</p>
     <ul>
       <li><strong>TRESA's community space</strong> on Park Street hosts events such as an apple pressing in September 2025. [[tresa_space]] [[tresa_events]]</li>
       <li><strong>Front gardens:</strong> the residents' association runs annual Front Garden Awards, giving out more than 260 in one year. [[tresa_gardens]]</li>

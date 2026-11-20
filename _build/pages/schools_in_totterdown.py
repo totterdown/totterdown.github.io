@@ -9,10 +9,10 @@ META = {
     'crumb': 'Schools',
     'h1': 'Schools in and near Totterdown',
     'published': '2026-11-02',
-    'modified': '2026-11-02',
+    'modified': '2026-11-20',
 }
 
-BODY = r'''    <p class="meta">Updated 2 November 2026. Ofsted ratings, catchments and admission rules change every year, so check each school and the council before you apply. <a href="/about/">How we check facts</a>.</p>
+BODY = r'''    <p class="meta">Updated 20 November 2026. Ofsted ratings, catchments and admission rules change every year, so check each school and the council before you apply. <a href="/about/">How we check facts</a>.</p>
     <p>Totterdown has one primary school of its own, with more in neighbouring Windmill Hill and Knowle. There's no secondary school in Totterdown, so older children travel to schools nearby. Ofsted now publishes report cards instead of single-word grades for new inspections, so the ratings below are from each school's last graded or ungraded inspection.</p>
 
     <section class="summary" aria-label="Quick answer">
@@ -35,6 +35,7 @@ BODY = r'''    <p class="meta">Updated 2 November 2026. Ofsted ratings, catchmen
     </nav>
 
     <h2 id="primary">Which primary schools serve Totterdown?</h2>
+    <p class="answer">Totterdown's own primary school is Hillcrest Primary School on Cemetery Road, rated Good in January 2022; Victoria Park Primary School in neighbouring Windmill Hill also remained Good after a January 2022 inspection. [[hillcrest]] [[vpps_ofsted]]</p>
     <div class="table-wrap"><table>
       <caption>Primary schools in and next to Totterdown</caption>
       <thead><tr><th>School</th><th>Details</th></tr></thead>
@@ -45,6 +46,7 @@ BODY = r'''    <p class="meta">Updated 2 November 2026. Ofsted ratings, catchmen
     </table></div>
 
     <h2 id="secondary">Which secondary schools are near Totterdown?</h2>
+    <p class="answer">There is no secondary school in Totterdown; schools nearby include St Mary Redcliffe and Temple School in Redcliffe, Oasis Academy Brislington and Oasis Academy Temple Quarter. [[smrt]] [[oab]] [[oatq]]</p>
     <div class="table-wrap"><table>
       <caption>Secondary schools near Totterdown</caption>
       <thead><tr><th>School</th><th>Details</th></tr></thead>
@@ -57,6 +59,7 @@ BODY = r'''    <p class="meta">Updated 2 November 2026. Ofsted ratings, catchmen
     <p>Which secondary school a Totterdown address is likely to get can change from year to year with the number of applicants. Check each school's admissions policy and the council's allocation figures before relying on any school.</p>
 
     <h2 id="admissions">How are school places given in Bristol?</h2>
+    <p class="answer">In Bristol you apply for most state school places through Bristol City Council, and a school with more applicants than places ranks them by its published criteria, typically children in care, then siblings, then distance. [[admissions]] [[oab]]</p>
     <ul>
       <li><strong>One application:</strong> you apply to Bristol City Council and list your preferred schools; the council publishes how places were allocated each year. [[admissions]]</li>
       <li><strong>Oversubscription:</strong> when a school has more applicants than places, it uses its published criteria, typically children in care first, then siblings, then distance. [[oab]]</li>

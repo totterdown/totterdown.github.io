@@ -40,6 +40,20 @@ def sitemap(entries):
             '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + '\n'.join(rows) + '\n</urlset>\n')
 
 
+def llms_txt():
+    """A plain-text map of the site for AI tools that read /llms.txt (Google does not use it)."""
+    out = [f'# {lib.NAME}', '',
+           '> Sourced, dated guides to Totterdown, a hillside neighbourhood in south Bristol, England, '
+           'above Temple Meads station. Every figure on a guide links to its source, and each page shows '
+           'when it was last updated. Not to be confused with Totterdown Fields in Tooting, London.', '']
+    for title, guides in lib.SECTIONS:
+        out.append(f'## {title}')
+        out += [f'- [{t}]({lib.SITE}{h}): {s}' for h, t, s in guides]
+        out.append('')
+    out += ['## About', f'- [How we check facts and corrections]({lib.SITE}/about/)', '']
+    return '\n'.join(out).replace('&amp;', '&')
+
+
 def main():
     check = '--check' in sys.argv
     files = {}
@@ -53,6 +67,7 @@ def main():
         if slug not in NOT_INDEXED:
             entries.append((slug, modified(mod)))
     files[os.path.join(lib.OUT, 'sitemap.xml')] = sitemap(entries)
+    files[os.path.join(lib.OUT, 'llms.txt')] = llms_txt()
 
     stale = []
     for path, text in files.items():

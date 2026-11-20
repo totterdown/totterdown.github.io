@@ -46,6 +46,7 @@ BODY = r'''    <p class="meta">Updated 20 November 2026. Totterdown is very stee
     </ol>
 
     <h2 id="extend">How can you extend the walk?</h2>
+    <p class="answer">You can extend a Totterdown walk to Arnos Vale Cemetery along the Bath Road, follow TRESA's walk around Totterdown's religious buildings, or walk beside the Avon New Cut. [[arnos]] [[relig_walk]] [[franc_walks]]</p>
     <ul>
       <li><strong>Arnos Vale Cemetery:</strong> a Victorian garden cemetery further along the Bath Road. [[arnos]] <a href="/parks-in-totterdown/#arnos">More</a>.</li>
       <li><strong>Religious buildings:</strong> TRESA's walk visits Totterdown's churches, chapels and mosque. [[relig_walk]]</li>

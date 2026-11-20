@@ -6,7 +6,7 @@
 Checks: JSON-LD parses; internal links, anchors and assets exist; citations
 match the sources list and are numbered in order; tables are wrapped; every
 page uses the current asset version, the same navigation and the footer note;
-one H1 per page; titles are 60 characters or fewer and descriptions 155 or
+one H1 per page; every question heading is followed by a paragraph that answers it; titles are 60 characters or fewer and descriptions 155 or
 fewer; indexable pages have a canonical tag and are in sitemap.xml; external
 links open in a new tab with rel="nofollow noopener"; generated pages match a
 fresh build.
@@ -70,6 +70,9 @@ for p in pages:
         problems.append(f'{p}: table without table-wrap')
     if f'/css/site.css?v={lib.ASSET_VERSION}"' not in s:
         problems.append(f'{p}: stylesheet version is not v={lib.ASSET_VERSION}')
+    for hid, text, nxt in re.findall(r'<h2 id="([^"]+)"[^>]*>(.*?)</h2>\s*(<\w+)', s, re.S):
+        if hid not in ('sources', 'related-title') and text.strip().endswith('?') and nxt != '<p':
+            problems.append(f'{p}: question heading #{hid} is not followed by a one-paragraph answer')
     if s.count('<h1') != 1:
         problems.append(f'{p}: has {s.count("<h1")} H1 headings')
     if 'external websites</a> linked from this site' not in s:

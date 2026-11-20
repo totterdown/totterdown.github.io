@@ -23,12 +23,12 @@ def sections():
 def build(data):
     graph = [
         lib.ORG,
+        lib.PLACE,
         {'@type': 'WebSite', '@id': f'{lib.SITE}/#website', 'name': lib.NAME, 'url': f'{lib.SITE}/',
          'publisher': {'@id': f'{lib.SITE}/#organization'}, 'inLanguage': 'en-GB'},
         {'@type': 'CollectionPage', '@id': f'{lib.SITE}/#webpage', 'url': f'{lib.SITE}/', 'name': TITLE,
          'description': DESC, 'isPartOf': {'@id': f'{lib.SITE}/#website'},
-         'about': {'@type': 'Place', 'name': 'Totterdown, Bristol',
-                   'containedInPlace': {'@type': 'City', 'name': 'Bristol'}},
+         'about': {'@id': f'{lib.SITE}/#totterdown'},
          'primaryImageOfPage': f'{lib.SITE}/img/og.png', 'inLanguage': 'en-GB'},
     ]
     html = lib.head(TITLE, DESC, SLUG, OG_DESC, og_type='website', graph=graph, source='home') + f'''<body>
@@ -37,7 +37,7 @@ def build(data):
     <span class="label"><span class="dot" aria-hidden="true"></span> Guides to a Bristol neighbourhood</span>
     <h1>Totterdown, Bristol</h1>
 
-    <p class="intro">Plain, sourced guides to the hillside neighbourhood above Temple Meads: what to see, where to eat, what's on, and what you need to know to live here.</p>
+    <p class="intro">Totterdown is a hillside neighbourhood in south Bristol, above Temple Meads station, known for its colourful Victorian terraces and England's steepest residential street. These are plain, sourced guides to what to see, where to eat, what's on and what you need to know to live here.</p>
 
     <div class="news-list">
       <a class="news" href="/totterdown-colourful-houses/"><strong>New guide:</strong> where to see Totterdown's colourful houses, and why they're painted</a>
@@ -48,7 +48,19 @@ def build(data):
 
     <section class="hub-about" aria-labelledby="what-title">
       <h2 id="what-title">What is Totterdown?</h2>
-      <p>Totterdown is a neighbourhood in south Bristol, on the steep hill above the River Avon and Temple Meads station, in the city's Windmill Hill ward. In short:</p>
+      <p>Totterdown is a neighbourhood in south Bristol, England, on the steep hill above the River Avon and Temple Meads station, in the city's Windmill Hill ward.</p>
+      <div class="table-wrap"><table>
+        <caption>Totterdown at a glance</caption>
+        <tbody>
+          <tr><th scope="row">Where</th><td>South Bristol, on the hill above Temple Meads station and the River Avon. <a href="/living-in-totterdown/#area">Location</a></td></tr>
+          <tr><th scope="row">Postcodes</th><td>BS3 and BS4; Totterdown has no official boundary. <a href="/living-in-totterdown/#area">Boundary</a></td></tr>
+          <tr><th scope="row">Council ward</th><td>Windmill Hill. <a href="/living-in-totterdown/#area">Ward</a></td></tr>
+          <tr><th scope="row">Known for</th><td>Colourful terraces, <a href="/vale-street/">Vale Street</a>, and the <a href="/totterdown-arts-trail/">Totterdown Arts Trail</a></td></tr>
+          <tr><th scope="row">Nearest station</th><td>Bristol Temple Meads, at the foot of the hill. <a href="/getting-around-totterdown/">Getting here</a></td></tr>
+          <tr><th scope="row">Average house price</th><td>£374,399 in the year to February 2026. <a href="/living-in-totterdown/#prices">House prices</a></td></tr>
+        </tbody>
+      </table></div>
+      <p>In short:</p>
       <ul>
         <li>It was built in late Victorian times to house railway workers, and many of its terraces are now painted in bright colours. <a href="/totterdown-history/#victorian">History</a></li>
         <li>Vale Street, with an average gradient of about 21.8%, was named England's steepest residential street by Ordnance Survey in 2019, and was briefly home to Banksy's "Aachoo!!" mural. <a href="/vale-street/">Vale Street</a></li>

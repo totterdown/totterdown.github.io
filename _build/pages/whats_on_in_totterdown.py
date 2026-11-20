@@ -43,6 +43,7 @@ BODY = r'''    <p class="meta">Updated 20 November 2026. Community events are ru
     </table></div>
 
     <h2 id="weekly">What's on every week?</h2>
+    <p class="answer">Every week in Totterdown there's live music at the Thunderbolt and the Oxford, and live sport at the Star &amp; Dove and the New Found Out. [[vb_locals]] [[wiki_totterdown]]</p>
     <ul>
       <li><strong>Live music:</strong> the Thunderbolt and the Oxford both host live music. [[vb_locals]] [[wiki_totterdown]]</li>
       <li><strong>Live sport:</strong> the Star &amp; Dove and the New Found Out. [[vb_locals]] More in <a href="/food-and-drink-in-totterdown/">where to eat and drink</a>.</li>
@@ -50,6 +51,7 @@ BODY = r'''    <p class="meta">Updated 20 November 2026. Community events are ru
     </ul>
 
     <h2 id="news">Where can you find out what's happening in Totterdown?</h2>
+    <p class="answer">For news about Totterdown, follow the residents' association TRESA, which publishes news, events and a newsletter, Talk of Totterdown, and the arts trail's own website for trail dates. [[tresa_events]] [[tresa]] [[tat_home]]</p>
     <ul>
       <li><strong>TRESA</strong> publishes news, events and its newsletter, Talk of Totterdown. [[tresa_events]] [[tresa]]</li>
       <li><strong>The arts trail</strong> posts its dates and map on its own website. [[tat_home]]</li>

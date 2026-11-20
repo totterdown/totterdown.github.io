@@ -47,6 +47,7 @@ BODY = r'''    <p class="meta">Updated 20 November 2026. Opening hours change, s
     <p>Yes. It's a public residential street, and Ordnance Survey named it England's steepest in 2019. [[vale_itv]] Banksy's "Aachoo!!" mural appeared there in December 2020, but it was removed in March 2021. [[banksy_removed]] Please respect residents' homes. <a href="/vale-street/">Read our Vale Street guide</a>.</p>
 
     <h2 id="pubs">What are the best pubs in Totterdown?</h2>
+    <p class="answer">Totterdown's pubs include the Thunderbolt, a listed former tollhouse known for live music, the Shakespeare for cider, the Oxford for Sunday roasts, and the Star &amp; Dove and the New Found Out for sport. [[turnpike]] [[vb_locals]]</p>
     <div class="table-wrap"><table>
       <caption>Totterdown pubs</caption>
       <thead><tr><th>Pub</th><th>Why go</th></tr></thead>
@@ -74,6 +75,7 @@ BODY = r'''    <p class="meta">Updated 20 November 2026. Opening hours change, s
     <p>Places open and close, so check opening times before you set off.</p>
 
     <h2 id="parks">Where are the best views of Bristol from Totterdown?</h2>
+    <p class="answer">The best views of Bristol from Totterdown are from Perrett's Park and Victoria Park, and from the top of almost any of Totterdown's steep streets. [[perretts]] [[vb_windmill]] [[colour_secret]]</p>
     <ul>
       <li><strong>Perrett's Park:</strong> on the edge of Totterdown, Windmill Hill and Knowle, it's one of the city's best-known viewpoints, and a popular spot to watch the Bristol International Balloon Fiesta's mass ascents in August. [[perretts]]</li>
       <li><strong>Victoria Park:</strong> next door in Windmill Hill, with views over Totterdown and central Bristol. [[vb_windmill]]</li>
@@ -91,6 +93,7 @@ BODY = r'''    <p class="meta">Updated 20 November 2026. Opening hours change, s
     </ul>
 
     <h2 id="landmarks">What landmarks can you see on the way?</h2>
+    <p class="answer">Landmarks in Totterdown include the Three Lamps signpost, the Bristol Jamia Mosque, which was the city's first mosque, and Totterdown Bridge, built in 1888. [[three_lamps]] [[mosque]] [[bridge]]</p>
     <ul>
       <li><strong>Three Lamps:</strong> the Grade II* listed signpost pointing to Bath and Wells, at the top of Bath Road. [[three_lamps]]</li>
       <li><strong>Bristol Jamia Mosque:</strong> on Green Street, the first mosque in Bristol, in a former church. [[mosque]]</li>
@@ -99,6 +102,7 @@ BODY = r'''    <p class="meta">Updated 20 November 2026. Opening hours change, s
     <p>The stories behind them are in <a href="/totterdown-history/">our history of Totterdown</a>, and you can link them into <a href="/totterdown-walk/">a self-guided walk</a>.</p>
 
     <h2 id="events">What's on in Totterdown through the year?</h2>
+    <p class="answer">Totterdown's main events are the Vale Street egg roll on Easter Sunday and the Totterdown Arts Trail in mid-November, and in August Perrett's Park is a popular place to watch the Balloon Fiesta. [[egg_itv]] [[tat_2025]] [[perretts]]</p>
     <div class="table-wrap"><table>
       <caption>Regular events</caption>
       <thead><tr><th>When</th><th>Event</th></tr></thead>
